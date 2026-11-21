@@ -1,0 +1,17 @@
+{
+ "metrics": {
+  "prior_P@1": 0.0,
+  "prior_MRR@3": 0.0,
+  "svm_threshold": -0.44999999999999984,
+  "svm_P@1": 0.5,
+  "svm_MRR@3": 0.6333333333333333,
+  "svm_micro_f1_notebook": 0.5957446808510638,
+  "svm_macro_f1_notebook": 0.6041666666666666,
+  "svm_micro_f1_seen_test": 0.5833333333333334,
+  "svm_macro_f1_seen_test": 0.6041666666666666,
+  "svm_micro_f1_all_test": 0.5833333333333334,
+  "svm_macro_f1_all_test": 0.5686274509803921,
+  "zeroshot_P@1": 0.45,
+  "zeroshot_MRR@3": 0.4666666666666667
+ }
+}

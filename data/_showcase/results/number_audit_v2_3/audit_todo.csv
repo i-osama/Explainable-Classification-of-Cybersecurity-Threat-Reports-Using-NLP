@@ -1,0 +1,12 @@
+para,token,kind,nearest_key,nearest_value,difference,likely_cause,context
+197,401,int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"trix contains 14 tactics, 193 techniques and 401 sub-techniques  ."
+311,24.8,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),Annotation errors reported  ; low F1 (24.8) on external data  
+313,"39,296",int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"ne-tuned on an augmented sentence–TTP set of 39,296 samples (193 TTPs)"
+314,92.42%,percent,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),High F1 (92.42%) on its augmented data; STIX export
+322,"6,612",int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"Multi-stage ranking; benchmark of 6,612 descriptions"
+323,57.83%,percent,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),P@1 57.83% on its own data; slow (about 8.9 s per query
+323,8.9,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),P@1 57.83% on its own data; slow (about 8.9 s per query)
+333,24.8,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"e evaluated: the TRAM model reaches an F1 of 24.8 on technique detection in AnnoCTR  , far bel"
+334,0.674,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),reme-classification baselines reach a P@1 of 0.674 on the same data. Kumarasinghe et al. combin
+502,2.5,decimal,-,-,-,setting on configs/number_whitelist.txt: no claim needed,and the 95% interval is formed by the 2.5th and 97.5th percentiles of these difference
+502,97.5,decimal,-,-,-,setting on configs/number_whitelist.txt: no claim needed, the 95% interval is formed by the 2.5th and 97.5th percentiles of these differences. The numb

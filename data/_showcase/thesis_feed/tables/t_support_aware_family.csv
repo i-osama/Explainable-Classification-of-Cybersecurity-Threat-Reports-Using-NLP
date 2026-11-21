@@ -1,0 +1,5 @@
+comparison,P@1_A,P@1_B,delta_P@1,ci_lo,ci_hi,mcnemar_b,mcnemar_c,p_mcnemar,p_holm,family_size
+"support-aware v2 vs (3,1,1,1)",0.8097,0.8028,0.0069,-0.0014,0.0166,8,3,0.2266,0.4531,4
+"support-aware v2 vs (4,1,1,1)",0.8097,0.8083,0.0014,-0.0069,0.0097,5,4,1.0,1.0,4
+"support-aware v2 vs equal (1,1,1,1)",0.8097,0.7821,0.0276,0.0166,0.04,20,0,0.0,0.0,4
+"support-aware v1 (prereg 09) vs (3,1,1,1)",0.8083,0.8028,0.0055,0.0014,0.011,4,0,0.125,0.375,4

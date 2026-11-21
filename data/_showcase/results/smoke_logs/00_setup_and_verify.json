@@ -1,0 +1,17 @@
+{
+ "notebook": "00_setup_and_verify.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 5.1,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [],
+ "last_output_lines": [
+  "  present E:\\Osamas Paper\\Exp_1_4_run_tram_2_epoc_30\\secbert_pw_s42\\model.safetensors",
+  "  absent  E:\\Osamas Paper\\run_match_2_saved\\ft20_s42\\matcher_state.pt",
+  "{'python': '3.13.18', 'platform': 'Windows-11-10.0.26200-SP0', 'in_colab': False, 'smoke': True, 'torch': '2.15.0+cpu', 'cuda': False, 'gpu': 'none', 'nvidia_smi': 'NVIDIA GeForce GTX 960, 4096 MiB, 5",
+  "status: SMOKE (not a result) | files in E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\00_setup_and_verify: 2",
+  "          file        key  value",
+  "env_local.json n_packages  155.0"
+ ],
+ "error": ""
+}

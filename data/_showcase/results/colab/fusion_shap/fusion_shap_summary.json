@@ -1,0 +1,19 @@
+{
+ "metrics": {
+  "n_sentences": 100,
+  "full_fusion": 1.0,
+  "z_statistics_constant": 0.0,
+  "max_additivity_error": 4.143153331881422e-05,
+  "fused_top1_correct": 0.8,
+  "explained_label_equals_fused_label": 1.0,
+  "n_deletion": 97,
+  "drop_fusedSHAP_top3": 35.41696071414185,
+  "drop_robertaSHAP_top3": 32.510134415701096,
+  "drop_random3": 7.069135385921231,
+  "fused_minus_roberta": 2.906826298440755,
+  "fused_minus_roberta_lo": 1.103922456777672,
+  "fused_minus_roberta_hi": 4.935766430989195,
+  "same_label_share": 0.8865979381443299
+ },
+ "system": "fusion (3,1,1,1) seed-paired, retrained matcher, seed 42"
+}

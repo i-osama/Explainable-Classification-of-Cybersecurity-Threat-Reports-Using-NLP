@@ -1,0 +1,17 @@
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights:  16%|█▌        | 32/201 [00:00<00:00, 308.17it/s]
+Loading weights:  31%|███▏      | 63/201 [00:00<00:00, 275.98it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 876.09it/s]
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights:  27%|██▋       | 28/105 [00:00<00:00, 265.46it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 935.01it/s]
+faithfulness: sampled 100, used 95, 344s, budget exceeded: False
+maxlen: 12s
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights:  16%|█▌        | 31/199 [00:00<00:00, 297.10it/s]
+Loading weights:  31%|███       | 61/199 [00:00<00:00, 286.59it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 919.58it/s]
+efficiency: 16s

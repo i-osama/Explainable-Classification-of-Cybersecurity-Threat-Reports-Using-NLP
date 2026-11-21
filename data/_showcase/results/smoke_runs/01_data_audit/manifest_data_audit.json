@@ -1,0 +1,46 @@
+{
+ "run_id": "data_audit",
+ "system": "data",
+ "seed": "-",
+ "config_hash": "07a14bb37b75ee15",
+ "config": {
+  "smoke": true
+ },
+ "env": {
+  "python": "3.13.18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "in_colab": "False",
+  "smoke": "True",
+  "torch": "2.15.0+cpu",
+  "cuda": "False",
+  "gpu": "none"
+ },
+ "input_sha256": {
+  "E:\\Osamas Paper\\Dataset\\tram_test.tsv": "2f12f2cfa909f99849f78d6101dc204bd2274877b04a643d00a452af216700a4",
+  "E:\\Osamas Paper\\Dataset\\tram_dev.tsv": "5145cb16221d573adad13ee78cce9aa4c3d840933cf306c5b726e23acfe535ac"
+ },
+ "output_sha256": {
+  "E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\01_data_audit\\data_audit.json": "515051eea2d43397507efb78ef1c75d28cc41d307c9a10291729a2efa4ddf2f8"
+ },
+ "metrics": {
+  "n_train": 3468.0,
+  "n_dev": 604.0,
+  "n_test": 725.0,
+  "train_labels": 180.0,
+  "test_labels": 127.0,
+  "test_labels_seen": 117.0,
+  "test_labels_unseen": 10.0,
+  "exact_overlap_train_test": 1.0,
+  "exact_overlap_train_dev": 0.0,
+  "exact_overlap_dev_test": 0.0,
+  "multi_label_test": 90.0,
+  "gold_pairs_test": 851.0,
+  "labels_in_space": 733.0,
+  "test_over_128_roberta": 0.0,
+  "test_mean_tokens_roberta": 21.0,
+  "test_over_128_secbert": 0.0,
+  "test_mean_tokens_secbert": 19.0
+ },
+ "status": "SMOKE",
+ "written": "2026-11-15T00:52:49"
+}

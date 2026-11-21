@@ -1,0 +1,16 @@
+{
+ "what": "Notebook 00 output on Colab (no manifest is written by notebook 00), copied by hand from Drive KDU/Thesis/showcase_runs/00_setup_and_verify/",
+ "drive_modified_utc": "2026-11-15T12:51",
+ "files": {
+  "env_colab.json": {
+   "drive_file_id": "1Og3MGXS4HZL_sb-Qa4GeKKyu-4KX8q8v",
+   "sha256": "e7259d584a40f2279858c0a1d6ea89b8284d0b77ccd4e560347d2cc57928d81e"
+  },
+  "input_hashes.json": {
+   "drive_file_id": "1LAfgOMv4NRWKkV8Ug9lp19-_xQVWYpfd",
+   "sha256": "3a56279110948ff8b942828b60d5d176fa4cba7385f90fb19e1340d8fb73735c"
+  }
+ },
+ "check": "input_hashes.json equals the 36 SHA-256 of the PC copy (COLAB_UPLOAD/inputs_sha256.json)",
+ "inputs_equal": 36
+}

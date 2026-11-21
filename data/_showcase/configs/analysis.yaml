@@ -1,0 +1,27 @@
+# Analysis configuration. `python -m ttpmap <command>` asserts that these values equal the constants in the code.
+seeds: [42, 43, 44]
+fusion:
+  order: [matcher, svm, roberta, secbert]      # position of each component in a weight vector
+  weights: [3, 1, 1, 1]                        # dev winner of the coarse grid
+  normalisation: per-sentence z-score over the labels a component knows; unknown labels -> 0
+  objective: dev MRR@3 (4 d.p.), tie-break dev P@1, first maximum
+  grids:
+    coarse: "{0,1,2,3}^4 minus all-zero"
+    wide: "{0,1,2,3,4,6,8}^4 reduced by gcd"
+bootstrap:
+  resamples: 10000
+  seed: 20261114
+  unit: test sentence
+  interval: percentile 95%
+ranking:
+  ties: lower label index first (stable sort)
+thresholds:
+  svm_grid: "np.arange(-0.6, 0.31, 0.05)"
+  classifier_grid_original: "np.arange(0.10, 0.90, 0.05)"
+  classifier_grid_extended: "np.arange(0.10, 0.9951, 0.01)"
+support_buckets: [[0, 0], [1, 4], [5, 9], [10, 19], [20, 49], [50, null]]
+faithfulness:
+  sample: "first 100 of numpy RandomState(42).permutation(725)"
+  max_k: 10
+  rationale_k: 3
+  random_orders: 5

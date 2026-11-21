@@ -1,0 +1,17 @@
+{
+ "notebook": "02_baselines.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 44.9,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [],
+ "last_output_lines": [
+  "manifest_baselines.json svm_micro_f1_seen_test  0.5833",
+  "manifest_baselines.json svm_macro_f1_seen_test  0.6042",
+  "manifest_baselines.json  svm_micro_f1_all_test  0.5833",
+  "manifest_baselines.json  svm_macro_f1_all_test  0.5686",
+  "manifest_baselines.json           zeroshot_P@1  0.4500",
+  "manifest_baselines.json         zeroshot_MRR@3  0.4667"
+ ],
+ "error": ""
+}

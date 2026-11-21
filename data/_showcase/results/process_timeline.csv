@@ -1,0 +1,17 @@
+track,event,first_timestamp,last_timestamp,n_files,evidence_files,basis
+Data,"Dataset files obtained (TRAM dev/test, combined train, ATT&CK descriptions)",2026-09-21 14:38:14.000000000,2026-10-17 12:40:04.000000000,5,Dataset/*,reconstructed from file timestamps
+Classifiers,First TRAM classifier notebook (pilot),2026-09-29 20:08:50.000000000,2026-09-29 20:08:50.000000000,1,Experiments/Exp_0_tram.ipynb,reconstructed from file timestamps
+Classifiers,Head learning-rate probe,2026-10-06 20:00:54.000000000,2026-10-06 20:00:54.000000000,1,Experiments/Exp_01_Tram.ipynb,reconstructed from file timestamps
+Classifiers,"15-epoch runs, RoBERTa and SecBERT, seeds 42-44",2026-10-12 14:06:46.000000000,2026-10-12 16:03:48.000000000,75,runs_tram_1.1_epoch_15/*,reconstructed from file timestamps
+Classifiers,30-epoch runs with higher head learning rate (final classifiers),2026-10-13 17:00:46.000000000,2026-10-14 16:15:58.000000000,48,run_tram_2_epoc_30/*,reconstructed from file timestamps
+Matcher,"Zero-shot and first fine-tuned matcher, 20-epoch seed 42",2026-10-17 12:40:34.000000000,2026-10-17 14:29:14.000000000,8,"run_match_1/{zeroshot,ft_s42,ft20_s42}",reconstructed from file timestamps
+Matcher,Matcher seeds 43 and 44,2026-10-26 15:28:16.000000000,2026-10-26 15:56:20.000000000,6,"run_match_1/ft20_s43, ft20_s44",reconstructed from file timestamps
+Fusion,Fusion weights and final results table,2026-10-28 17:23:16.000000000,2026-10-28 17:23:16.000000000,1,run_match_1/final_results_table.csv,reconstructed from file timestamps
+Matcher,256-token description ablation and label-rarity chart,2026-11-03 20:07:30.000000000,2026-11-04 14:28:36.000000000,10,"run_match_1/ft20L256_*, label_rarity.png",reconstructed from file timestamps
+Classifiers,"Classifier runs re-saved with checkpoints (pw / nopw, seeds 42-44)",2026-11-06 14:13:26.000000000,2026-11-06 16:34:04.000000000,80,Exp_1_4_run_tram_2_epoc_30/*,reconstructed from file timestamps
+Explainability,"SHAP pilots (token-level, then word-level with 10 permutations)",2026-11-07 11:48:50.000000000,2026-11-07 12:52:44.000000000,2,"Exp_3_0_shap/shap_roberta_pw_s42.jsonl, shap_v1_*",reconstructed from file timestamps
+Explainability,Deletion test on the 100-sentence sample,2026-11-10 19:36:50.000000000,2026-11-10 19:36:50.000000000,1,Exp_3_0_shap/deletion_test_v2_roberta_pw_s42.csv,reconstructed from file timestamps
+Human study,Rating sheets filled and agreement computed,2026-11-11 21:15:44.000000000,2026-11-11 21:40:36.000000000,4,"Exp_3_0_shap/ rating sheets (by role), rater_agreement_v2_*.csv",reconstructed from file timestamps
+Explainability,Word-level SHAP for all test sentences (40 permutations),2026-11-12 23:22:12.000000000,2026-11-12 23:22:12.000000000,1,Exp_3_0_shap/shap_v2_roberta_pw_s42.jsonl,reconstructed from file timestamps
+Audit,Evidence pack: every claim recomputed from saved predictions,2026-11-14 04:02:30.513183594,2026-11-14 12:22:23.188663006,33,"_evidence_pack/*.md, *.csv",reconstructed from file timestamps
+Showcase,"Showcase: package, tests, pre-registered analyses, truth file",2026-11-14 13:25:05.515947579,2026-11-14 13:47:51.021994591,27,"_showcase/results/*.csv, thesis_numbers.json",reconstructed from file timestamps

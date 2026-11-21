@@ -1,0 +1,21 @@
+para,point,lo,hi,status,ids,registry,context
+192,+0.014,−0.014,+0.041,OK,C3,"[-0.014, +0.041]", at rank one (P@1) between RoBERTa and the SVM is +0.014 with a 95% interval of −0.014 to +0.041. Fine-tuning 
+610,0.006,0.790,0.796,SEED LIST,,,"P@1 0.796 ± 0.006 (0.790, 0.796, 0.803)"
+637,0.006,0.790,0.796,SEED LIST,,,"en the seed-averaged inputs are used, and 0.796 ± 0.006 (0.790, 0.796 and 0.803) when seed k of the matcher is"
+676,0.019,0.010,0.029,OK,"C1.mrr, ABL.A1.mrr","[+0.010, +0.029]",0.029 in P@1 (95% interval 0.017 to 0.043) and by 0.019 in MRR@3 (0.010 to 0.029). It also exceeds the three-s
+676,0.026,0.001,0.051,OK,C2,"[+0.001, +0.051]",t also exceeds the three-seed matcher ensemble by 0.026 in P@1 (0.001 to 0.051 [confirm upper bound]) and by 0
+676,0.019,0.003,0.036,OK,C2.mrr,"[+0.003, +0.036]","P@1 (0.001 to 0.051 [confirm upper bound]) and by 0.019 in MRR@3 (0.003 to 0.036 [confirm]). With 10,000 resam"
+676,+0.014,−0.014,+0.041,OK,C3,"[-0.014, +0.041]","emble is clear. In contrast, RoBERTa minus SVM is +0.014 in P@1 (−0.014 to +0.041) and +0.002 in MRR@3 (−0.018"
+676,+0.002,−0.018,+0.022,OK,C3.mrr,"[-0.018, +0.022]","minus SVM is +0.014 in P@1 (−0.014 to +0.041) and +0.002 in MRR@3 (−0.018 to +0.022), and RoBERTa minus SecBER"
+676,+0.001,−0.023,+0.025,OK,C4,"[-0.023, +0.025]"," (−0.018 to +0.022), and RoBERTa minus SecBERT is +0.001 (−0.023 to +0.025) and +0.002 (−0.016 to +0.019). The"
+676,+0.002,−0.016,+0.019,OK,C4.mrr,"[-0.016, +0.019]",Ta minus SecBERT is +0.001 (−0.023 to +0.025) and +0.002 (−0.016 to +0.019). These intervals include zero: the
+682,+0.029,+0.017,+0.043,OK,"C1, ABL.A1","[+0.017, +0.043]","+0.029 [+0.017, +0.043]"
+683,+0.019,+0.010,+0.029,OK,"C1.mrr, ABL.A1.mrr","[+0.010, +0.029]","+0.019 [+0.010, +0.029]"
+685,+0.026,+0.001,+0.051,OK,C2,"[+0.001, +0.051]","+0.026 [+0.001, +0.051]"
+686,+0.019,+0.003,+0.036,OK,C2.mrr,"[+0.003, +0.036]","+0.019 [+0.003, +0.036]"
+688,+0.014,−0.014,+0.041,OK,C3,"[-0.014, +0.041]","+0.014 [−0.014, +0.041]"
+689,+0.002,−0.018,+0.022,OK,C3.mrr,"[-0.018, +0.022]","+0.002 [−0.018, +0.022]"
+691,+0.001,−0.023,+0.025,OK,C4,"[-0.023, +0.025]","+0.001 [−0.023, +0.025]"
+692,+0.002,−0.016,+0.019,OK,C4.mrr,"[-0.016, +0.019]","+0.002 [−0.016, +0.019]"
+790,+0.014,−0.014,+0.041,OK,C3,"[-0.014, +0.041]","the P@1 difference between RoBERTa and the SVM is +0.014 with an interval from −0.014 to +0.041, and the micro"
+798,+0.014,−0.014,+0.041,OK,C3,"[-0.014, +0.041]","ΔP@1 +0.014 [−0.014, +0.041]"

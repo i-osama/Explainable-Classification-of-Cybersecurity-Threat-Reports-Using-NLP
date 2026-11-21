@@ -1,0 +1,37 @@
+{
+ "model_name": "BAAI/bge-base-en-v1.5",
+ "seed": 42,
+ "best_epoch": 1,
+ "dev": {
+  "P@1": 0.375,
+  "MRR@3": 0.375,
+  "R@5": 0.375
+ },
+ "test": {
+  "P@1": 0.625,
+  "MRR@3": 0.75,
+  "R@5": 0.8
+ },
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9596112668514252,
+   "dev_P@1": 0.375,
+   "dev_MRR@3": 0.375,
+   "dev_R@5": 0.375
+  }
+ ],
+ "config": {
+  "epochs": 1,
+  "patience": 4,
+  "batch_size": 4,
+  "lr": 2e-05,
+  "n_neg": 4,
+  "scale": 30.0,
+  "text_max_len": 128,
+  "label_max_len_train": 32,
+  "pooling": "cls",
+  "neg_pool": "all"
+ },
+ "finished": true
+}

@@ -1,0 +1,10 @@
+{
+ "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+ "logical_cpus": 12,
+ "torch_threads": 6,
+ "torch": "2.15.0+cpu",
+ "ram_gb": 15.9,
+ "os": "Windows-11-10.0.26200-SP0",
+ "python": "3.13.18",
+ "device": "cpu"
+}

@@ -1,0 +1,66 @@
+tactic,system,n_sentences,P@1,lo,hi
+collection,TF-IDF + SVM,72,0.6806,0.5694,0.7778
+collection,RoBERTa (3-seed avg),72,0.7917,0.6944,0.875
+collection,SecBERT (3-seed avg),72,0.7083,0.5972,0.8056
+collection,Matcher (3-seed ens.),72,0.8194,0.7222,0.9028
+collection,"Fusion (3,1,1,1)",72,0.8333,0.7497,0.9167
+command-and-control,TF-IDF + SVM,130,0.8154,0.7462,0.8769
+command-and-control,RoBERTa (3-seed avg),130,0.7769,0.7,0.8462
+command-and-control,SecBERT (3-seed avg),130,0.7692,0.6923,0.8385
+command-and-control,Matcher (3-seed ens.),130,0.8,0.7308,0.8692
+command-and-control,"Fusion (3,1,1,1)",130,0.8154,0.7462,0.8769
+credential-access,TF-IDF + SVM,39,0.7692,0.641,0.8974
+credential-access,RoBERTa (3-seed avg),39,0.7692,0.641,0.8974
+credential-access,SecBERT (3-seed avg),39,0.7692,0.641,0.8974
+credential-access,Matcher (3-seed ens.),39,0.7692,0.641,0.8974
+credential-access,"Fusion (3,1,1,1)",39,0.7692,0.641,0.8974
+defense-evasion,TF-IDF + SVM,191,0.7225,0.6597,0.7853
+defense-evasion,RoBERTa (3-seed avg),191,0.7435,0.6806,0.801
+defense-evasion,SecBERT (3-seed avg),191,0.7382,0.6754,0.801
+defense-evasion,Matcher (3-seed ens.),191,0.7592,0.6963,0.8168
+defense-evasion,"Fusion (3,1,1,1)",191,0.801,0.7435,0.8586
+discovery,TF-IDF + SVM,181,0.7901,0.7293,0.8508
+discovery,RoBERTa (3-seed avg),181,0.7735,0.7127,0.8343
+discovery,SecBERT (3-seed avg),181,0.7901,0.7293,0.8453
+discovery,Matcher (3-seed ens.),181,0.8011,0.7403,0.8564
+discovery,"Fusion (3,1,1,1)",181,0.8343,0.779,0.8895
+execution,TF-IDF + SVM,94,0.7872,0.7021,0.8617
+execution,RoBERTa (3-seed avg),94,0.7979,0.7128,0.8723
+execution,SecBERT (3-seed avg),94,0.8404,0.766,0.9149
+execution,Matcher (3-seed ens.),94,0.766,0.6809,0.8511
+execution,"Fusion (3,1,1,1)",94,0.8617,0.7872,0.9255
+exfiltration,TF-IDF + SVM,13,0.5385,0.3077,0.7692
+exfiltration,RoBERTa (3-seed avg),13,0.5385,0.3077,0.7692
+exfiltration,SecBERT (3-seed avg),13,0.5385,0.3077,0.7692
+exfiltration,Matcher (3-seed ens.),13,0.5385,0.2308,0.7692
+exfiltration,"Fusion (3,1,1,1)",13,0.6154,0.3846,0.8462
+impact,TF-IDF + SVM,10,0.3,0.0,0.6
+impact,RoBERTa (3-seed avg),10,0.4,0.1,0.7
+impact,SecBERT (3-seed avg),10,0.4,0.1,0.7
+impact,Matcher (3-seed ens.),10,0.7,0.4,1.0
+impact,"Fusion (3,1,1,1)",10,0.5,0.2,0.8
+initial-access,TF-IDF + SVM,12,0.5,0.25,0.75
+initial-access,RoBERTa (3-seed avg),12,0.5,0.25,0.75
+initial-access,SecBERT (3-seed avg),12,0.6667,0.4167,0.9167
+initial-access,Matcher (3-seed ens.),12,0.8333,0.5833,1.0
+initial-access,"Fusion (3,1,1,1)",12,0.75,0.5,1.0
+lateral-movement,TF-IDF + SVM,16,0.4375,0.1875,0.6875
+lateral-movement,RoBERTa (3-seed avg),16,0.5,0.25,0.75
+lateral-movement,SecBERT (3-seed avg),16,0.625,0.375,0.875
+lateral-movement,Matcher (3-seed ens.),16,0.6875,0.4375,0.875
+lateral-movement,"Fusion (3,1,1,1)",16,0.6875,0.4375,0.875
+persistence,TF-IDF + SVM,76,0.6711,0.5658,0.7763
+persistence,RoBERTa (3-seed avg),76,0.7237,0.6184,0.8161
+persistence,SecBERT (3-seed avg),76,0.6974,0.5921,0.8026
+persistence,Matcher (3-seed ens.),76,0.7368,0.6447,0.8421
+persistence,"Fusion (3,1,1,1)",76,0.7237,0.6184,0.8289
+privilege-escalation,TF-IDF + SVM,95,0.7368,0.6421,0.8211
+privilege-escalation,RoBERTa (3-seed avg),95,0.7368,0.6421,0.8211
+privilege-escalation,SecBERT (3-seed avg),95,0.7474,0.6526,0.8316
+privilege-escalation,Matcher (3-seed ens.),95,0.7895,0.7053,0.8632
+privilege-escalation,"Fusion (3,1,1,1)",95,0.7579,0.6632,0.8421
+reconnaissance,TF-IDF + SVM,18,0.8889,0.7222,1.0
+reconnaissance,RoBERTa (3-seed avg),18,0.7778,0.5556,0.9444
+reconnaissance,SecBERT (3-seed avg),18,0.8333,0.6667,1.0
+reconnaissance,Matcher (3-seed ens.),18,0.5556,0.3333,0.7778
+reconnaissance,"Fusion (3,1,1,1)",18,0.8889,0.7222,1.0

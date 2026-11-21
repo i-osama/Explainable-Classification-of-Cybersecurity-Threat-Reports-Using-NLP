@@ -1,0 +1,2 @@
+passed,failed,skipped,runner,summary
+29,0,0,pytest -q in ttp_app,29 passed in 4.65s

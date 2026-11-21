@@ -1,0 +1,19 @@
+system,relation,errors,share_of_errors,total_errors
+SVM,unrelated technique family,180,0.9625668449197861,187
+SVM,pred is SUB-TECHNIQUE of gold,3,0.016042780748663103,187
+SVM,siblings (same parent),3,0.016042780748663103,187
+SVM,pred is PARENT of gold,1,0.0053475935828877,187
+RoBERTa,unrelated technique family,172,0.9717514124293786,177
+RoBERTa,pred is SUB-TECHNIQUE of gold,2,0.011299435028248588,177
+RoBERTa,siblings (same parent),3,0.01694915254237288,177
+SecBERT,unrelated technique family,173,0.9719101123595506,178
+SecBERT,siblings (same parent),2,0.011235955056179775,178
+SecBERT,pred is PARENT of gold,1,0.0056179775280898875,178
+SecBERT,pred is SUB-TECHNIQUE of gold,2,0.011235955056179775,178
+Matcher,unrelated technique family,157,0.9691358024691358,162
+Matcher,pred is SUB-TECHNIQUE of gold,1,0.006172839506172839,162
+Matcher,siblings (same parent),2,0.012345679012345678,162
+Matcher,pred is PARENT of gold,2,0.012345679012345678,162
+Fusion,unrelated technique family,139,0.972027972027972,143
+Fusion,pred is SUB-TECHNIQUE of gold,2,0.013986013986013986,143
+Fusion,siblings (same parent),2,0.013986013986013986,143

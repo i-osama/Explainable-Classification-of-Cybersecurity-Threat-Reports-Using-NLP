@@ -1,0 +1,36 @@
+# Numeric tokens allowed in README, report and notebook text without a thesis_numbers.json entry.
+# Only settings, counts of shipped items and time estimates. No result may be listed here.
+10      # "10 minutes"; top-10 settings
+19      # number of figures
+11      # number of notebooks
+00      # notebook numbers
+01
+02
+03
+04
+05
+06
+07
+08
+09
+15      # minutes (runtime estimate)
+25      # minutes (runtime estimate)
+24      # hours on a V100, stated in the baseline paper
+60      # minutes (runtime estimate)
+45      # new seed
+46      # new seed
+100     # sentences in the fixed SHAP sample
+256     # description length at evaluation / optional max length
+180     # labels offered in the LLM closed-set prompt = train labels
+50      # dev sentences for LLM prompt development
+300     # dpi
+0.001   # tolerance of the regression test
+2401.10337   # arXiv id of the baseline paper
+2026    # year
+14      # 14 November 2026
+18      # kill-switch date / hour
+1.5     # hours (runtime estimate)
+4x      # runtime multiple (estimate)
+2.5     # percentile of the 95% interval
+97.5    # percentile of the 95% interval
+1,000   # bootstrap resamples of the original notebooks (setting; the thesis protocol uses 10,000)

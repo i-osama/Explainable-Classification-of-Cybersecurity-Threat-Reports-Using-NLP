@@ -1,0 +1,26 @@
+system,relation,errors,total_errors,share
+TF-IDF + SVM,predicted the parent,1.0,187,0.0053475935828877
+TF-IDF + SVM,predicted a sub-technique,3.0,187,0.016042780748663103
+TF-IDF + SVM,sibling sub-technique,3.0,187,0.016042780748663103
+TF-IDF + SVM,other technique,180.0,187,0.9625668449197861
+TF-IDF + SVM,technique-level P@1 (parent match counts),,187,0.7517241379310344
+RoBERTa (3-seed avg),predicted the parent,0.0,177,0.0
+RoBERTa (3-seed avg),predicted a sub-technique,2.0,177,0.011299435028248588
+RoBERTa (3-seed avg),sibling sub-technique,3.0,177,0.01694915254237288
+RoBERTa (3-seed avg),other technique,172.0,177,0.9717514124293786
+RoBERTa (3-seed avg),technique-level P@1 (parent match counts),,177,0.7627586206896552
+SecBERT (3-seed avg),predicted the parent,1.0,178,0.0056179775280898875
+SecBERT (3-seed avg),predicted a sub-technique,2.0,178,0.011235955056179775
+SecBERT (3-seed avg),sibling sub-technique,2.0,178,0.011235955056179775
+SecBERT (3-seed avg),other technique,173.0,178,0.9719101123595506
+SecBERT (3-seed avg),technique-level P@1 (parent match counts),,178,0.7613793103448275
+Matcher (3-seed ens.),predicted the parent,2.0,162,0.012345679012345678
+Matcher (3-seed ens.),predicted a sub-technique,1.0,162,0.006172839506172839
+Matcher (3-seed ens.),sibling sub-technique,2.0,162,0.012345679012345678
+Matcher (3-seed ens.),other technique,157.0,162,0.9691358024691358
+Matcher (3-seed ens.),technique-level P@1 (parent match counts),,162,0.783448275862069
+"Fusion (3,1,1,1)",predicted the parent,0.0,143,0.0
+"Fusion (3,1,1,1)",predicted a sub-technique,2.0,143,0.013986013986013986
+"Fusion (3,1,1,1)",sibling sub-technique,2.0,143,0.013986013986013986
+"Fusion (3,1,1,1)",other technique,139.0,143,0.972027972027972
+"Fusion (3,1,1,1)",technique-level P@1 (parent match counts),,143,0.8082758620689655

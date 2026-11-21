@@ -1,0 +1,77 @@
+# Only _showcase/ and _evidence_pack/ are versioned. Everything else at the top level is ignored.
+/*
+!/.gitignore
+!/_showcase/
+!/_evidence_pack/
+
+# Environments, caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Model weights and checkpoints (never committed)
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.onnx
+*.npy
+*.npz
+**/matcher_retrain/
+**/checkpoints/
+**/weights/
+
+# Raw dataset text (licence unknown) and files that carry sentence text
+tram_train.*
+tram_dev.*
+tram_test.*
+combined_train.*
+ttp-desc-mappings.*
+_evidence_pack/nb_src/
+_evidence_pack/01_duplicates.csv
+_evidence_pack/01_near_duplicates.csv
+_evidence_pack/05_fixed_broken_all.csv
+_evidence_pack/05_fixed_broken_examples.csv
+_evidence_pack/11_fusion_shap_partial.jsonl
+*.jsonl
+
+# Personal data: rater sheets, returned ratings, inventories that list rater file names
+**/human_study/returned/
+hand_check_*.xlsx
+rater_agreement_*.csv
+_evidence_pack/00_hashes.csv
+_evidence_pack/00_inventory.md
+
+# Large or external files (limit: 25 MB per file, enforced by _showcase/scripts/git_commit.ps1)
+_evidence_pack/external/
+*.zip
+*.pptx
+
+# Logs
+_evidence_pack/scripts/_*.txt
+*.log
+
+# Human study v2: sheets carry dataset sentences, the key reveals conditions
+_showcase/human_study/sheets/
+_showcase/human_study/key_PRIVATE.csv
+_showcase/human_study/materials_local/
+_showcase/human_study/returned/*.csv
+!_showcase/human_study/returned/raters_TEMPLATE.csv
+_showcase/drive_upload/
+desktop.ini
+
+# Q1 plan: raw LLM replies may echo dataset sentences; local only
+_showcase/results/llm_raw/
+_colab_returned/
+
+# Kaggle API credentials: never commit (token lives in the user profile .kaggle folder, outside the repo)
+.kaggle/
+kaggle.json
+access_token
+*KGAT_*
+
+# local share packs (never commit)
+SHARE_PACK_*/

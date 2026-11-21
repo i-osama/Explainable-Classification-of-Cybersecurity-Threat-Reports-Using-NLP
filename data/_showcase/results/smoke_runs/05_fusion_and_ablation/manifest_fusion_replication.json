@@ -1,0 +1,71 @@
+{
+ "run_id": "fusion_replication",
+ "system": "fusion",
+ "seed": "avg",
+ "config_hash": "1fa9879fc068103d",
+ "config": {
+  "weights": [
+   3,
+   1,
+   1,
+   1
+  ],
+  "matcher_source": {
+   "42": "run_match_1",
+   "43": "run_match_1",
+   "44": "run_match_1"
+  }
+ },
+ "env": {
+  "python": "3.13.18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "in_colab": "False",
+  "smoke": "True",
+  "torch": "2.15.0+cpu",
+  "cuda": "False",
+  "gpu": "none"
+ },
+ "input_sha256": {
+  "E:\\Osamas Paper\\run_match_1\\ft20_s42\\test_scores.npy": "cb359ea09f03e69073b7ccfbff94fcdc464a85c3cb5678c289c09347e28aa15a",
+  "E:\\Osamas Paper\\run_match_1\\ft20_s43\\test_scores.npy": "e22e2fa59caa6c54bd25c454331bd6c1a86f8586f6097922bb48b6b2d7338d9b",
+  "E:\\Osamas Paper\\run_match_1\\ft20_s44\\test_scores.npy": "ea65740235f0e53b8929465449e8325d6246fb8697a47177b2f49c5d87534a03"
+ },
+ "output_sha256": {
+  "E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\05_fusion_and_ablation\\fusion_replication.json": "f32315608bd8929a93c7fa93a2c8a4a5821e6d67b83ffac881f687bd49febac0"
+ },
+ "metrics": {
+  "coarse_n_settings": 255.0,
+  "coarse_dev_MRR@3": 0.8698,
+  "coarse_w_matcher": 3.0,
+  "coarse_w_svm": 1.0,
+  "coarse_w_roberta": 1.0,
+  "coarse_w_secbert": 1.0,
+  "coarse_test_P@1": 0.8,
+  "wide_n_settings": 1711.0,
+  "wide_dev_MRR@3": 0.8744,
+  "wide_w_matcher": 4.0,
+  "wide_w_svm": 1.0,
+  "wide_w_roberta": 1.0,
+  "wide_w_secbert": 1.0,
+  "wide_test_P@1": 0.8041379310344827,
+  "fusion_seed_averaged_P@1": 0.8027586206896552,
+  "fusion_seed_averaged_MRR@3": 0.8556321839080461,
+  "fusion_seed_paired_P@1_mean": 0.7963218390804597,
+  "fusion_seed_paired_P@1_sd": 0.006219654831479845,
+  "fusion_matcher_seed_varied_P@1_mean": 0.7995402298850575,
+  "fusion_matcher_seed_varied_P@1_sd": 0.0007963451988822697,
+  "classifiers_only_P@1": 0.7737931034482759,
+  "matcher_ensemble_P@1": 0.776551724137931,
+  "without_matcher_P@1": 0.7737931034482759,
+  "without_svm_P@1": 0.7986206896551724,
+  "without_roberta_P@1": 0.7820689655172414,
+  "without_secbert_P@1": 0.7903448275862069,
+  "without_matcher_holm_p": 7.772445678710938e-05,
+  "without_svm_holm_p": 0.6072387695312499,
+  "without_roberta_holm_p": 0.017773836851119995,
+  "without_secbert_holm_p": 0.0703125,
+  "matcher_is_retrained": 0.0
+ },
+ "status": "SMOKE",
+ "written": "2026-11-15T00:55:41"
+}

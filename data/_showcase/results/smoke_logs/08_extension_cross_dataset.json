@@ -1,0 +1,19 @@
+{
+ "notebook": "08_extension_cross_dataset.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 6.1,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [
+  "SMOKE on CPU: training skipped (GPU-only). Data preparation above ran in full."
+ ],
+ "last_output_lines": [
+  "cross_dataset_prep.json      removed_duplicates_of_dev_or_test     0.0",
+  "cross_dataset_prep.json           removed_labels_outside_space     0.0",
+  "cross_dataset_prep.json                      sibling_rows_used 10997.0",
+  "cross_dataset_prep.json                         sibling_labels   466.0",
+  "cross_dataset_prep.json        test_labels_covered_by_siblings   122.0",
+  "cross_dataset_prep.json unseen_test_labels_covered_by_siblings     8.0"
+ ],
+ "error": ""
+}

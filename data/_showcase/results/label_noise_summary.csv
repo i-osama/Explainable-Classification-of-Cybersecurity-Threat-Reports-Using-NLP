@@ -1,0 +1,12 @@
+metric,value
+test_sentences,725.0
+fusion_top1_errors,143.0
+unanimous_wrong_candidates,37.0
+share_of_fusion_errors,0.25874125874125875
+share_of_test,0.05103448275862069
+all_five_agree_any_label,450.0
+relation: predicted the parent,0.0
+relation: predicted a sub-technique,0.0
+relation: sibling sub-technique,1.0
+relation: same tactic,19.0
+relation: other tactic,17.0

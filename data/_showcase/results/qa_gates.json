@@ -1,0 +1,47 @@
+[
+ {
+  "gate": "tests",
+  "result": "PASS",
+  "detail": "tests: 80  PASS 80  FAIL 0  SKIP 0 (runner: scripts/run_tests.py; pytest not installed)"
+ },
+ {
+  "gate": "verify_claims within 0.001",
+  "result": "PASS",
+  "detail": "VERIFY: PASS"
+ },
+ {
+  "gate": "number consistency (README, report, notebook text)",
+  "result": "PASS",
+  "detail": "16 documents; unregistered numeric tokens: 0"
+ },
+ {
+  "gate": "notebooks valid, smoke-logged, not presented as run",
+  "result": "PASS",
+  "detail": "11 notebooks; nbformat valid 11; smoke PASS 11; with outputs or without NOT-RUN header: none"
+ },
+ {
+  "gate": "figures: png + svg + FIGURES.md row + alt text",
+  "result": "PASS",
+  "detail": "19 figures; incomplete: none"
+ },
+ {
+  "gate": "link check (file paths in landing documents)",
+  "result": "PASS",
+  "detail": "missing: none"
+ },
+ {
+  "gate": "no secrets, user paths, PII or dataset text beyond short excerpts",
+  "result": "PASS",
+  "detail": "317 tracked files scanned; findings: none"
+ },
+ {
+  "gate": "hashes recorded and matching",
+  "result": "PASS",
+  "detail": "HASHES: PASS"
+ },
+ {
+  "gate": "zip under 50 MB",
+  "result": "PASS",
+  "detail": "8.1 MB"
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "metrics": {
+  "n_sentences": 2,
+  "full_fusion": 0.0,
+  "z_statistics_constant": 0.0,
+  "max_additivity_error": 1.2456631210966407e-06,
+  "fused_top1_correct": 1.0,
+  "explained_label_equals_fused_label": 1.0,
+  "n_deletion": 2,
+  "drop_fusedSHAP_top3": 20.04653912700931,
+  "drop_robertaSHAP_top3": 19.020799408506683,
+  "drop_random3": 4.637601097429025,
+  "fused_minus_roberta": 1.0257397185026278,
+  "fused_minus_roberta_lo": 0.0,
+  "fused_minus_roberta_hi": 2.0514794370052556,
+  "same_label_share": 1.0
+ },
+ "system": "classifiers-only part (0,1,1,1): matcher weights not found, run notebook 04 first, seed 42"
+}

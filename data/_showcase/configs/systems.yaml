@@ -1,0 +1,31 @@
+# Training settings of the four components, as read from the original notebooks (citations in THESIS_PLACEHOLDERS.md).
+svm:
+  vectoriser: {type: TfidfVectorizer, ngram_range: [1, 2], sublinear_tf: true}
+  classifier: {type: LinearSVC, C: 1.0, random_state: 42, class_weight: null}
+  wrapper: OneVsRestClassifier
+classifiers:
+  checkpoints: {roberta: roberta-base, secbert: jackaduma/SecBERT}
+  max_length: 128
+  batch_size: 16
+  lr: 2.0e-5
+  head_lr: 1.0e-3
+  epochs: 30
+  patience: 5
+  loss: BCEWithLogitsLoss with pos_weight capped at 20
+  optimizer: AdamW (weight decay default)
+  scheduler: linear warmup 10% then linear decay
+  selection: epoch by dev micro-F1; threshold by dev micro-F1
+matcher:
+  checkpoint: BAAI/bge-base-en-v1.5
+  pooling: cls
+  normalisation: l2
+  loss: softplus(logsumexp(negatives) - positive), cosine x 30
+  negatives: 64 uniform random labels per batch from all 733 minus the batch gold labels
+  epochs: 20
+  patience: 4
+  batch_size: 16
+  lr: 2.0e-5
+  text_max_len: 128
+  label_max_len_train: 128
+  label_max_len_eval: 256
+  selection: epoch by dev MRR@3

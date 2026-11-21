@@ -1,0 +1,9 @@
+id,status_v12.1,status_latest,final_id_latest,final_status_latest,desc_similarity
+T1066,revoked,revoked,T1027.005,active,
+T1156,revoked,revoked,T1546.004,active,
+T1067,revoked,revoked,T1542.003,active,
+T1143,revoked,revoked,T1564.003,active,
+T1161,revoked,revoked,T1546.006,active,
+T1055.011,active,active,T1055.011,active,0.9355900329102022
+T1053.005,active,active,T1053.005,active,0.8930676396295257
+T1205.002,active,active,T1205.002,active,0.9556313993174061

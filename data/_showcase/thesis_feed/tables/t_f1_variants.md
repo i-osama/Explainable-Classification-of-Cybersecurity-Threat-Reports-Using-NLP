@@ -1,0 +1,26 @@
+| system | seed | variant | micro_f1 | macro_f1 | micro_precision | micro_recall | n_macro_labels |
+|---|---|---|---|---|---|---|---|
+| TF-IDF + SVM | - | notebook | 0.6961 | 0.5427 | 0.6722 | 0.7218 | 117 |
+| TF-IDF + SVM | - | seen_test | 0.6921 | 0.5427 | 0.6722 | 0.7133 | 117 |
+| TF-IDF + SVM | - | all_test | 0.6921 | 0.5 | 0.6722 | 0.7133 | 127 |
+| RoBERTa | 42 | notebook | 0.7077 | 0.5681 | 0.7268 | 0.6897 | 117 |
+| RoBERTa | 42 | seen_test | 0.7035 | 0.5681 | 0.7268 | 0.6816 | 117 |
+| RoBERTa | 42 | all_test | 0.7035 | 0.5234 | 0.7268 | 0.6816 | 127 |
+| RoBERTa | 43 | notebook | 0.6931 | 0.5487 | 0.7016 | 0.6849 | 117 |
+| RoBERTa | 43 | seen_test | 0.689 | 0.5487 | 0.7016 | 0.6769 | 117 |
+| RoBERTa | 43 | all_test | 0.689 | 0.5055 | 0.7016 | 0.6769 | 127 |
+| RoBERTa | 44 | notebook | 0.7154 | 0.5735 | 0.7338 | 0.698 | 117 |
+| RoBERTa | 44 | seen_test | 0.7111 | 0.5735 | 0.7338 | 0.6898 | 117 |
+| RoBERTa | 44 | all_test | 0.7111 | 0.5283 | 0.7338 | 0.6898 | 127 |
+| SecBERT | 42 | notebook | 0.7042 | 0.5363 | 0.7245 | 0.6849 | 117 |
+| SecBERT | 42 | seen_test | 0.6999 | 0.5363 | 0.7245 | 0.6769 | 117 |
+| SecBERT | 42 | all_test | 0.6999 | 0.4941 | 0.7245 | 0.6769 | 127 |
+| SecBERT | 43 | notebook | 0.7022 | 0.5514 | 0.6993 | 0.7051 | 117 |
+| SecBERT | 43 | seen_test | 0.6981 | 0.5514 | 0.6993 | 0.6968 | 117 |
+| SecBERT | 43 | all_test | 0.6981 | 0.508 | 0.6993 | 0.6968 | 127 |
+| SecBERT | 44 | notebook | 0.7028 | 0.5413 | 0.7127 | 0.6932 | 117 |
+| SecBERT | 44 | seen_test | 0.6986 | 0.5413 | 0.7127 | 0.6851 | 117 |
+| SecBERT | 44 | all_test | 0.6986 | 0.4987 | 0.7127 | 0.6851 | 127 |
+| Frequency prior | - | notebook | 0.0473 | 0.0008 | 0.051 | 0.044 | 117 |
+| Frequency prior | - | seen_test | 0.047 | 0.0008 | 0.051 | 0.0435 | 117 |
+| Frequency prior | - | all_test | 0.047 | 0.0008 | 0.051 | 0.0435 | 127 |

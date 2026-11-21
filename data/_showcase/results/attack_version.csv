@@ -1,0 +1,2 @@
+stix_version,file_ids,stix_ids,id_set_equal,ids_only_in_file,ids_only_in_stix,text_similarity_median,text_sim_ge_0.95,text_sim_ge_0.99,text_sim_lt_0.80
+12.1,737,737,True,0,0,0.9587852494577006,424,130,5

@@ -1,0 +1,65 @@
+{
+ "run_id": "support_aware",
+ "system": "fusion-support-aware",
+ "seed": "avg",
+ "config_hash": "d5f90c57c185dfbd",
+ "config": {
+  "bands": "0 | 1-4 | 5-19 | 20+",
+  "weights_grid": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8
+  ]
+ },
+ "env": {
+  "python": "3.13.18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "in_colab": "False",
+  "smoke": "True",
+  "torch": "2.15.0+cpu",
+  "cuda": "False",
+  "gpu": "none"
+ },
+ "input_sha256": {
+  "E:\\Osamas Paper\\run_match_1\\ft20_s42\\test_scores.npy": "cb359ea09f03e69073b7ccfbff94fcdc464a85c3cb5678c289c09347e28aa15a",
+  "E:\\Osamas Paper\\run_match_1\\ft20_s43\\test_scores.npy": "e22e2fa59caa6c54bd25c454331bd6c1a86f8586f6097922bb48b6b2d7338d9b",
+  "E:\\Osamas Paper\\run_match_1\\ft20_s44\\test_scores.npy": "ea65740235f0e53b8929465449e8325d6246fb8697a47177b2f49c5d87534a03"
+ },
+ "output_sha256": {
+  "E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\07_extension_support_aware_fusion\\support_aware.json": "100dd891d5d1f1b9e3633277e2285d3de898a470290c882e503d855fa5cc9e7f"
+ },
+ "metrics": {
+  "w_unseen": 1.0,
+  "w_rare": 2.0,
+  "w_mid": 4.0,
+  "w_frequent": 4.0,
+  "dev_MRR@3": 0.8692,
+  "test_P@1": 0.8,
+  "rare_P@1": 0.1590909090909091,
+  "n_dev_settings": 60.0,
+  "delta_vs_3111": -0.002758620689655172,
+  "ci_lo_vs_3111": -0.008275862068965517,
+  "ci_hi_vs_3111": 0.002758620689655172,
+  "p_mcnemar_vs_3111": 0.625,
+  "rare_P@1_3111": 0.22727272727272727,
+  "delta_vs_4111": -0.008275862068965517,
+  "ci_lo_vs_4111": -0.015172413793103448,
+  "ci_hi_vs_4111": -0.002758620689655172,
+  "p_mcnemar_vs_4111": 0.03125,
+  "rare_P@1_4111": 0.29545454545454547,
+  "delta_vs_equal": 0.01793103448275862,
+  "ci_lo_vs_equal": 0.008275862068965517,
+  "ci_hi_vs_equal": 0.027586206896551724,
+  "p_mcnemar_vs_equal": 0.000244140625,
+  "rare_P@1_equal": 0.1590909090909091,
+  "p_holm_vs_3111": 0.625,
+  "p_holm_vs_4111": 0.0625,
+  "p_holm_vs_equal": 0.000732421875,
+  "success_rule_met": 0.0
+ },
+ "status": "SMOKE",
+ "written": "2026-11-15T00:56:12"
+}

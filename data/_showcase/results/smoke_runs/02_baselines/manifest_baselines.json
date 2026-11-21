@@ -1,0 +1,43 @@
+{
+ "run_id": "baselines",
+ "system": "prior+svm+zeroshot",
+ "seed": "-",
+ "config_hash": "e33e67c495d4bf14",
+ "config": {
+  "smoke": true,
+  "label_max_len": 64
+ },
+ "env": {
+  "python": "3.13.18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "in_colab": "False",
+  "smoke": "True",
+  "torch": "2.15.0+cpu",
+  "cuda": "False",
+  "gpu": "none"
+ },
+ "input_sha256": {
+  "E:\\Osamas Paper\\Dataset\\tram_test.tsv": "2f12f2cfa909f99849f78d6101dc204bd2274877b04a643d00a452af216700a4"
+ },
+ "output_sha256": {
+  "E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\02_baselines\\baselines.json": "3ca05c958a6968fe65d9d22468a7efeac6f34541d7084032b3faff0db7cf0f72",
+  "E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\02_baselines\\zeroshot_test_scores.npy": "5b2f3febdbe10a2d26ff9342efdf58bbbf55967e5927a9f7ba32cae83ca5c330"
+ },
+ "metrics": {
+  "prior_P@1": 0.0,
+  "prior_MRR@3": 0.0,
+  "svm_threshold": -0.44999999999999984,
+  "svm_P@1": 0.5,
+  "svm_MRR@3": 0.6333333333333333,
+  "svm_micro_f1_notebook": 0.5957446808510638,
+  "svm_macro_f1_notebook": 0.6041666666666666,
+  "svm_micro_f1_seen_test": 0.5833333333333334,
+  "svm_macro_f1_seen_test": 0.6041666666666666,
+  "svm_micro_f1_all_test": 0.5833333333333334,
+  "svm_macro_f1_all_test": 0.5686274509803921,
+  "zeroshot_P@1": 0.45,
+  "zeroshot_MRR@3": 0.4666666666666667
+ },
+ "status": "SMOKE",
+ "written": "2026-11-15T00:53:33"
+}

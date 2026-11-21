@@ -1,0 +1,11 @@
+# Training environment (Google Colab). The Colab `pip freeze` was never saved, so only versions that are
+# printed in notebook outputs or stored in run files can be pinned. Everything else is NOT-FOUND.
+#
+# VERIFIED pins
+transformers==5.22.1        # Exp_1_4_run_tram_2_epoc_30/*/config.json "transformers_version"
+torch==2.14.1               # Exp_3_0b_shap_all_725 CELL 1 output: "torch 2.14.1+cu130" (CUDA 13.0 build)
+shap==0.54.1                # Exp_3_0b_shap_all_725 CELL 1 output; Exp_3_1_shap
+#
+# NOT-FOUND (used, version unknown): numpy, pandas, scikit-learn, tqdm, openpyxl, python version, CUDA driver, GPU model
+# (the notebooks say "T4" in markdown only).
+# For the versions used to produce the evidence pack itself see requirements_local_analysis.txt.

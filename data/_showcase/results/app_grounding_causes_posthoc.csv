@@ -1,0 +1,8 @@
+violations,rows
+technique id/name,31
+word not in sentence,19
+technique id/name + word not in sentence,18
+sentence word outside top-5 + technique id/name,3
+sentence word outside top-5 + technique id/name + word not in sentence,3
+sentence word outside top-5 + word not in sentence,2
+sentence word outside top-5,1

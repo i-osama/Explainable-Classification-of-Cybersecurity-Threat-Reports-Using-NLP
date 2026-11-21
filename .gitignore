@@ -1,0 +1,24 @@
+# Local runtime, logs and caches (never upload: >1 GB, >50k files)
+/runtime/
+/logs/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Large model weights and arrays (GitHub rejects files over 100 MB)
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+*.pth
+*.onnx
+*.npy
+*.npz
+
+# data/ keeps its own rules: only _showcase/ and _evidence_pack/ are versioned.

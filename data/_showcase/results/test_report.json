@@ -1,0 +1,570 @@
+{
+ "runner": "scripts/run_tests.py (pytest not installed)",
+ "counts": {
+  "PASS": 80,
+  "FAIL": 0,
+  "SKIP": 0
+ },
+ "tests": [
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_ci_wording_and_more_separators",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_compare_with_registry",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_differs_reports_nearest_claim_not_first",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_finds_three_phrasings",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_point_does_not_jump_over_other_numbers",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_range_that_does_not_contain_the_point_is_listed_not_dropped",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_rounding_is_half_up_like_authors",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_check_intervals.py",
+   "test": "test_seed_value_lists_are_not_intervals",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_conformal.py",
+   "test": "test_coverage_synthetic",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_conformal.py",
+   "test": "test_exact_quantile",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_conformal.py",
+   "test": "test_leakage",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_conformal.py",
+   "test": "test_nan_scores_never_in_set",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_conformal.py",
+   "test": "test_quantile_above_n_gives_full_set",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_conformal.py",
+   "test": "test_rank_rule",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_conformal.py",
+   "test": "test_zero_label_rows_dropped",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_cross.py",
+   "test": "test_dedup_against_exact_and_near",
+   "status": "PASS",
+   "seconds": 0.09,
+   "error": ""
+  },
+  {
+   "file": "test_cross.py",
+   "test": "test_dedup_against_without_near",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_cross.py",
+   "test": "test_siblings_have_no_test_overlap_after_dedup",
+   "status": "PASS",
+   "seconds": 0.8,
+   "error": ""
+  },
+  {
+   "file": "test_drift.py",
+   "test": "test_chain_to_deprecated_target_visible",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_drift.py",
+   "test": "test_duplicate_external_id_prefers_active",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_drift.py",
+   "test": "test_revocation_chain",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_drift.py",
+   "test": "test_revoked_without_link_has_no_replacement",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_drift.py",
+   "test": "test_status_kinds",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_bootstrap_is_seeded",
+   "status": "PASS",
+   "seconds": 0.01,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_grid_sizes",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_holm_textbook_example",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_leakage_guard_split_name",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_leakage_guard_test_ids",
+   "status": "PASS",
+   "seconds": 0.01,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_mcnemar_counts_and_symmetry",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_schema_accepts_and_rejects",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_selection_is_deterministic",
+   "status": "PASS",
+   "seconds": 0.16,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_units_tile_text_and_mask",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_wilson_known_value",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_fusion_stats_schema.py",
+   "test": "test_zrow_unknown_labels_are_neutral",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_human_study.py",
+   "test": "test_fewer_than_three_raters_is_flagged",
+   "status": "PASS",
+   "seconds": 0.57,
+   "error": ""
+  },
+  {
+   "file": "test_human_study.py",
+   "test": "test_primary_rule_needs_a_full_point_and_an_interval_above_zero",
+   "status": "PASS",
+   "seconds": 0.69,
+   "error": ""
+  },
+  {
+   "file": "test_human_study.py",
+   "test": "test_schema_problems_are_reported_not_dropped",
+   "status": "PASS",
+   "seconds": 0.02,
+   "error": ""
+  },
+  {
+   "file": "test_ingest.py",
+   "test": "test_ingest_accepts_matching_hash_and_logs",
+   "status": "PASS",
+   "seconds": 0.01,
+   "error": ""
+  },
+  {
+   "file": "test_ingest.py",
+   "test": "test_ingest_maps_hardened_out_paths",
+   "status": "PASS",
+   "seconds": 0.02,
+   "error": ""
+  },
+  {
+   "file": "test_ingest.py",
+   "test": "test_ingest_rejects_hash_mismatch",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_ingest.py",
+   "test": "test_ingest_rejects_smoke_manifests",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_llm.py",
+   "test": "test_parse_ids_dedup_and_k",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_llm.py",
+   "test": "test_parse_ids_empty_on_prose",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_llm.py",
+   "test": "test_parse_ids_ignores_think_block",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_llm.py",
+   "test": "test_parse_ids_normalises",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_llm.py",
+   "test": "test_prompts_are_fixed",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_llm.py",
+   "test": "test_prompts_contain_inputs",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_ece_perfectly_calibrated_bin",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_empty_prediction_gets_argmax",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_f1_variants",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_mrr_at_3",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_p_at_1",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_p_at_3",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_recall_variants_differ_on_multilabel",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_metrics.py",
+   "test": "test_ties_broken_by_lower_index",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_project_data.py",
+   "test": "test_fusion_is_deterministic",
+   "status": "PASS",
+   "seconds": 1.62,
+   "error": ""
+  },
+  {
+   "file": "test_project_data.py",
+   "test": "test_headline_numbers_regression",
+   "status": "PASS",
+   "seconds": 0.65,
+   "error": ""
+  },
+  {
+   "file": "test_project_data.py",
+   "test": "test_split_overlap_is_small_and_known",
+   "status": "PASS",
+   "seconds": 0.03,
+   "error": ""
+  },
+  {
+   "file": "test_project_data.py",
+   "test": "test_split_sizes_and_label_space",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_project_data.py",
+   "test": "test_stored_classifier_metrics_reproduce",
+   "status": "PASS",
+   "seconds": 0.02,
+   "error": ""
+  },
+  {
+   "file": "test_project_data.py",
+   "test": "test_tuning_never_sees_test_ids",
+   "status": "PASS",
+   "seconds": 9.45,
+   "error": ""
+  },
+  {
+   "file": "test_project_data.py",
+   "test": "test_wide_grid_prefers_4111",
+   "status": "PASS",
+   "seconds": 66.97,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_load_entity_names_groups_and_software",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_lower_nopunct",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_mask_entities_longest_first_and_case_sensitive",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_mask_entities_word_boundary",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_mask_iocs",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_mask_iocs_keeps_plain_text",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_technique_names_never_masked",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_robust.py",
+   "test": "test_typo_deterministic_and_rate",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_selective.py",
+   "test": "test_aurc_known",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_selective.py",
+   "test": "test_aurc_perfect_ranking",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_selective.py",
+   "test": "test_dev_threshold_coverage",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_selective.py",
+   "test": "test_leakage",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_selective.py",
+   "test": "test_margin_basic",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_selective.py",
+   "test": "test_nan_confidence_least_confident",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_selective.py",
+   "test": "test_ties_deterministic",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_stack.py",
+   "test": "test_fit_stacker_refuses_test_split",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_stack.py",
+   "test": "test_pair_features_shape_and_unseen_zero",
+   "status": "PASS",
+   "seconds": 0.0,
+   "error": ""
+  },
+  {
+   "file": "test_stack.py",
+   "test": "test_stacker_recovers_planted_signal",
+   "status": "PASS",
+   "seconds": 0.03,
+   "error": ""
+  }
+ ]
+}

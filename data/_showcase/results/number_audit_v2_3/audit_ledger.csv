@@ -1,0 +1,594 @@
+token,kind,status,region,para,table,context
+10,int>=10,registered,front,7,,"December 10, 2026"
+2026,year,ignored,front,7,,"December 10, 2026"
+10,int>=10,registered,front,36,,"December 10, 2026"
+2026,year,ignored,front,36,,"December 10, 2026"
+10,int>=10,registered,front,42,,"December 10, 2026"
+2026,year,ignored,front,42,,"December 10, 2026"
+"4,797",int>=10,registered,front,191,," sentence-level mapping on the TRAM dataset (4,797 sentences: 3,468 for training, 604 for devel"
+"3,468",int>=10,registered,front,191,,"apping on the TRAM dataset (4,797 sentences: 3,468 for training, 604 for development and 725 fo"
+604,int>=10,registered,front,191,,"ataset (4,797 sentences: 3,468 for training, 604 for development and 725 for testing) and ask"
+725,int>=10,registered,front,191,," 3,468 for training, 604 for development and 725 for testing) and asks which modelling choice"
+0.705,decimal,registered,front,192,," the SVM are statistically tied: micro-F1 is 0.705, 0.703 and 0.696, and the difference in prec"
+0.703,decimal,registered,front,192,,"M are statistically tied: micro-F1 is 0.705, 0.703 and 0.696, and the difference in precision a"
+0.696,decimal,registered,front,192,,"istically tied: micro-F1 is 0.705, 0.703 and 0.696, and the difference in precision at rank one"
+1,int<10,ignored,front,192,,"her; with equal weights the gain is small (P@1 of 0.779), and fusion is worse than the matc"
++0.014,decimal,registered,front,192,,ank one (P@1) between RoBERTa and the SVM is +0.014 with a 95% interval of −0.014 to +0.041. Fin
+95%,percent,registered,front,192,,between RoBERTa and the SVM is +0.014 with a 95% interval of −0.014 to +0.041. Fine-tuning ra
+−0.014,decimal,registered,front,192,,and the SVM is +0.014 with a 95% interval of −0.014 to +0.041. Fine-tuning raises the matcher’s 
++0.041,decimal,registered,front,192,,M is +0.014 with a 95% interval of −0.014 to +0.041. Fine-tuning raises the matcher’s P@1 from 0
+0.228,decimal,registered,front,192,,1. Fine-tuning raises the matcher’s P@1 from 0.228 (zero-shot) to 0.756. With weights tuned on 
+0.756,decimal,registered,front,192,," the matcher’s P@1 from 0.228 (zero-shot) to 0.756. With weights tuned on the development set, "
+0.803,decimal,registered,front,192,,"the development set, fusion reaches a P@1 of 0.803, which exceeds a classifiers-only ensemble b"
+0.029,decimal,registered,front,192,,which exceeds a classifiers-only ensemble by 0.029 (interval 0.017 to 0.043) and a three-seed m
+0.017,decimal,registered,front,192,,classifiers-only ensemble by 0.029 (interval 0.017 to 0.043) and a three-seed matcher ensemble 
+0.043,decimal,registered,front,192,,rs-only ensemble by 0.029 (interval 0.017 to 0.043) and a three-seed matcher ensemble by 0.026 
+0.026,decimal,registered,front,192,, 0.043) and a three-seed matcher ensemble by 0.026 (interval 0.001 to 0.051 [confirm upper boun
+0.001,decimal,registered,front,192,,"ree-seed matcher ensemble by 0.026 (interval 0.001 to 0.051 [confirm upper bound], exact McNema"
+0.051,decimal,registered,front,192,,"matcher ensemble by 0.026 (interval 0.001 to 0.051 [confirm upper bound], exact McNemar p = 0.0"
+0.048,decimal,registered,front,192,,"051 [confirm upper bound], exact McNemar p = 0.048), so the gain over ensembling alone is clear"
+0.779,decimal,registered,front,192,,"with equal weights the gain is small (P@1 of 0.779), and fusion is worse than the matcher alone"
+12,int>=10,allowed,body,197,," refined into sub-techniques. In the version 12 snapshot used by the dataset in this work, t"
+14,int>=10,allowed,body,197,,"in this work, the Enterprise matrix contains 14 tactics, 193 techniques and 401 sub-techniqu"
+193,int>=10,registered,body,197,,", the Enterprise matrix contains 14 tactics, 193 techniques and 401 sub-techniques  ."
+401,int>=10,UNREGISTERED,body,197,,"trix contains 14 tactics, 193 techniques and 401 sub-techniques  ."
+14,int>=10,allowed,body,199,,"ry’s goal at a given moment, and   lists the 14 Enterprise tactics with their goals as given"
+15,int>=10,registered,body,199,,"lso versioned: the current website describes 15 Enterprise tactics  , whereas the dataset us"
+12,int>=10,allowed,body,199,,"taset used here is annotated against version 12, so every mapping is tied to the version of "
+13,int>=10,registered,body,231,,"e ATT&CK Enterprise tactics page for version 13  ; version 12, which the dataset uses, also "
+12,int>=10,allowed,body,231,,"prise tactics page for version 13  ; version 12, which the dataset uses, also has 14 Enterpr"
+14,int>=10,allowed,body,231,,"version 12, which the dataset uses, also has 14 Enterprise tactics  ."
+180,int>=10,registered,body,234,,"ng portion of the dataset used here contains 180 distinct labels, rare labels are hard for an"
+127,int>=10,registered,body,234,," are hard for any classifier, and ten of the 127 labels that occur in the test set never occu"
+"3,468",int>=10,registered,body,237,,"ub-technique labels, the fixed TRAM split of 3,468 training, 604 development and 725 test sente"
+604,int>=10,registered,body,237,,"els, the fixed TRAM split of 3,468 training, 604 development and 725 test sentences, and the "
+725,int>=10,registered,body,237,,"split of 3,468 training, 604 development and 725 test sentences, and the ATT&CK technique des"
+12,int>=10,allowed,body,241,,ATT&CK versions other than the version 12 snapshot on which the dataset is based.
+1,int<10,ignored,body,249,,Objective 1: To review the literature on automated ATT&C
+2,int<10,ignored,body,250,,Objective 2: To build reproducible baselines (TF-IDF wit
+3,int<10,ignored,body,251,,Objective 3: To develop and fine-tune a bi-encoder match
+4,int<10,ignored,body,252,,Objective 4: To combine the systems by weighted late fus
+5,int<10,ignored,body,253,,Objective 5: To evaluate SHAP explanations for faithfuln
+1.16,decimal,registered,body,272,,"e carries one or more technique identifiers, 1.16 on average, and sentences are short, with an"
+23,int>=10,registered,body,272,," and sentences are short, with an average of 23 tokens  . Because the sentences were labelle"
+1.16,decimal,registered,body,274,,he TRAM dataset the average sentence carries 1.16 labels  . Two views of the task are common. 
+1,int<10,ignored,body,279,,"ral classifiers the loss over the labels ℓ = 1, …, L is the weighted binary cross-entropy,"
+20,int>=10,allowed,body,281,,"raining examples of the label, capped at c = 20 in this thesis."
+24.8,decimal,UNREGISTERED,body,311,yes,Annotation errors reported  ; low F1 (24.8) on external data  
+"39,296",int>=10,UNREGISTERED,body,313,yes,"ne-tuned on an augmented sentence–TTP set of 39,296 samples (193 TTPs)"
+193,int>=10,registered,body,313,yes,"ugmented sentence–TTP set of 39,296 samples (193 TTPs)"
+92.42%,percent,UNREGISTERED,body,314,yes,High F1 (92.42%) on its augmented data; STIX export
+1,int<10,ignored,body,318,yes,"Uses descriptions for rare labels; P@1 0.770, MRR@3 0.864 on TRAM"
+0.770,decimal,registered,body,318,yes,"Uses descriptions for rare labels; P@1 0.770, MRR@3 0.864 on TRAM"
+3,int<10,ignored,body,318,yes,"descriptions for rare labels; P@1 0.770, MRR@3 0.864 on TRAM"
+0.864,decimal,registered,body,318,yes,"scriptions for rare labels; P@1 0.770, MRR@3 0.864 on TRAM"
+24,int>=10,registered,body,319,yes,; no explanation study; long training (about 24 h on one V100)
+"6,612",int>=10,UNREGISTERED,body,322,yes,"Multi-stage ranking; benchmark of 6,612 descriptions"
+1,int<10,ignored,body,323,yes,P@1 57.83% on its own data; slow (about 8.9 s pe
+57.83%,percent,UNREGISTERED,body,323,yes,P@1 57.83% on its own data; slow (about 8.9 s per query
+8.9,decimal,UNREGISTERED,body,323,yes,P@1 57.83% on its own data; slow (about 8.9 s per query)
+37,int>=10,registered,body,331,yes,"Cleaned set covers only 37 techniques; document-level, LLM-based"
+24.8,decimal,UNREGISTERED,body,333,,"e evaluated: the TRAM model reaches an F1 of 24.8 on technique detection in AnnoCTR  , far bel"
+1,int<10,ignored,body,334,,e extreme-classification baselines reach a P@1 of 0.674 on the same data. Kumarasinghe et a
+3,int<10,ignored,body,334,,"e estimation and report the best P@1 and MRR@3 on TRAM among the methods they compare, with"
+0.674,decimal,UNREGISTERED,body,334,,reme-classification baselines reach a P@1 of 0.674 on the same data. Kumarasinghe et al. combin
+"2,066",year,ignored,body,335,,"TRAM and builds a manually cleaned subset of 2,066 sentences covering 37 techniques  . AnnoCTR "
+37,int>=10,registered,body,335,,"y cleaned subset of 2,066 sentences covering 37 techniques  . AnnoCTR adds implicit mentions"
+42,int>=10,allowed,body,349,," system was trained with three random seeds (42, 43 and 44), and statistical claims are base"
+43,int>=10,allowed,body,349,,"tem was trained with three random seeds (42, 43 and 44), and statistical claims are based on"
+44,int>=10,allowed,body,349,," trained with three random seeds (42, 43 and 44), and statistical claims are based on paired"
+3,int<10,ignored,body,357,,"development set selects (4, 1, 1, 1), where (3, 1, 1, 1) ranks thirtieth [confirm that the "
+1,int<10,ignored,body,357,,"nt set selects (4, 1, 1, 1), where (3, 1, 1, 1) ranks thirtieth [confirm that the choice wa"
+255,int>=10,registered,body,357,,"re the development winner of a first grid of 255 weight vectors; a later, finer grid of 1,711"
+"1,711",int>=10,registered,body,357,,"f 255 weight vectors; a later, finer grid of 1,711 vectors on the same development set selects "
+4,int<10,ignored,body,357,,"vectors on the same development set selects (4, 1, 1, 1), where (3, 1, 1, 1) ranks thirtiet"
+"4,797",int>=10,registered,body,370,,"ing datasets  ,  . The dataset paper reports 4,797 texts with an average length of 23 tokens, 1"
+23,int>=10,registered,body,370,,"eports 4,797 texts with an average length of 23 tokens, 193 technique and sub-technique labe"
+193,int>=10,registered,body,370,,"7 texts with an average length of 23 tokens, 193 technique and sub-technique labels and 1.16 "
+1.16,decimal,registered,body,370,,", 193 technique and sub-technique labels and 1.16 labels per text, annotated against ATT&CK ve"
+12,int>=10,allowed,body,370,,"s per text, annotated against ATT&CK version 12  . The data were used with the released spli"
+"3,468",int>=10,registered,body,370,,"he data were used with the released split of 3,468 training, 604 development and 725 test sente"
+604,int>=10,registered,body,370,,"d with the released split of 3,468 training, 604 development and 725 test sentences ( . The t"
+725,int>=10,registered,body,370,,"split of 3,468 training, 604 development and 725 test sentences ( . The training portion cont"
+180,int>=10,registered,body,370,," sentences ( . The training portion contains 180 distinct labels, the test portion 127, of wh"
+127,int>=10,registered,body,370,,"ntains 180 distinct labels, the test portion 127, of which 117 also occur in training. The te"
+117,int>=10,registered,body,370,,"tinct labels, the test portion 127, of which 117 also occur in training. The ten remaining te"
+733,int>=10,registered,body,370,,trics and is quantified in   Descriptions of 733 ATT&CK technique and sub-technique entries a
+737,int>=10,registered,body,370,,"etrieval matcher; the description file lists 737 entries, and four revoked identifiers were d"
+"14,465",int>=10,registered,body,370,,"arger training collection of the repository (14,465 rows from three sources and 478 labels) was "
+478,int>=10,registered,body,370,,"pository (14,465 rows from three sources and 478 labels) was inspected during exploration but"
+"3,468",int>=10,registered,body,377,yes,"3,468"
+180,int>=10,registered,body,379,yes,180
+604,int>=10,registered,body,381,yes,604
+725,int>=10,registered,body,385,yes,725
+127,int>=10,registered,body,387,yes,127 (117 seen in training)
+117,int>=10,registered,body,387,yes,127 (117 seen in training)
+"4,797",int>=10,registered,body,389,yes,"4,797"
+20,int>=10,allowed,body,395,,valuated zero-shot and after fine-tuning for 20 epochs on training sentences paired with the
+128,int>=10,allowed,body,395,," a longer description length (256 instead of 128 tokens, ft20L256) was run as an ablation. Fu"
+16,int>=10,allowed,body,395,,"quence length of 128 tokens, a batch size of 16, a learning rate of 2e-5 for the encoder and"
+2,int<10,ignored,body,395,,"kens, a batch size of 16, a learning rate of 2e-5 for the encoder and 1e-3 for the classifi"
+5,int<10,ignored,body,395,,"s, a batch size of 16, a learning rate of 2e-5 for the encoder and 1e-3 for the classificat"
+1,int<10,ignored,body,395,," a learning rate of 2e-5 for the encoder and 1e-3 for the classification head, up to 30 epo"
+3,int<10,ignored,body,395,,"learning rate of 2e-5 for the encoder and 1e-3 for the classification head, up to 30 epochs"
+30,int>=10,allowed,body,395,," and 1e-3 for the classification head, up to 30 epochs with early stopping after five epochs"
+256,int>=10,registered,body,395,," A variant with a longer description length (256 instead of 128 tokens, ft20L256) was run as "
+128,int>=10,allowed,body,406,yes,"Sub-word tokens, 128 max."
+20,int>=10,allowed,body,407,yes,"BCE, pos_weight cap 20, lr 2e-5 / 1e-3, 30 epochs, patience 5"
+2,int<10,ignored,body,407,yes,"BCE, pos_weight cap 20, lr 2e-5 / 1e-3, 30 epochs, patience 5"
+5,int<10,ignored,body,407,yes," cap 20, lr 2e-5 / 1e-3, 30 epochs, patience 5"
+1,int<10,ignored,body,407,yes,"BCE, pos_weight cap 20, lr 2e-5 / 1e-3, 30 epochs, patience 5"
+3,int<10,ignored,body,407,yes,"BCE, pos_weight cap 20, lr 2e-5 / 1e-3, 30 epochs, patience 5"
+30,int>=10,allowed,body,407,yes,"BCE, pos_weight cap 20, lr 2e-5 / 1e-3, 30 epochs, patience 5"
+42,int>=10,allowed,body,408,yes,"42, 43, 44"
+43,int>=10,allowed,body,408,yes,"42, 43, 44"
+44,int>=10,allowed,body,408,yes,"42, 43, 44"
+128,int>=10,allowed,body,410,yes,"Sub-word tokens, 128 max."
+42,int>=10,allowed,body,412,yes,"42, 43, 44"
+43,int>=10,allowed,body,412,yes,"42, 43, 44"
+44,int>=10,allowed,body,412,yes,"42, 43, 44"
+20,int>=10,allowed,body,415,yes,Zero-shot; fine-tuned 20 epochs (ft20)
+42,int>=10,allowed,body,416,yes,"42, 43, 44"
+43,int>=10,allowed,body,416,yes,"42, 43, 44"
+44,int>=10,allowed,body,416,yes,"42, 43, 44"
+3,int<10,ignored,body,419,yes,"Weights (3,1,1,1) fixed on dev"
+1,int<10,ignored,body,419,yes,"Weights (3,1,1,1) fixed on dev"
+255,int>=10,registered,body,423,,"ched on the development set. A first grid of 255 weight vectors was won by (3,1,1,1), which g"
+3,int<10,ignored,body,423,,",711 vectors selects (4,1,1,1) instead, and (3,1,1,1) ranks thirtieth on the development se"
+1,int<10,ignored,body,423,,"ectors selects (4,1,1,1) instead, and (3,1,1,1) ranks thirtieth on the development set ther"
+"1,711",int>=10,registered,body,423,,"and SecBERT a weight of one; a later grid of 1,711 vectors selects (4,1,1,1) instead, and (3,1,"
+4,int<10,ignored,body,423,," one; a later grid of 1,711 vectors selects (4,1,1,1) instead, and (3,1,1,1) ranks thirtiet"
+15,int>=10,registered,body,427,,s kept. An earlier configuration trained for 15 epochs reached a micro-F1 of only about 0.62
+0.62,decimal,registered,body,427,,"r 15 epochs reached a micro-F1 of only about 0.62 to 0.63, below the SVM; the move to 30 epoch"
+0.63,decimal,registered,body,427,,"chs reached a micro-F1 of only about 0.62 to 0.63, below the SVM; the move to 30 epochs was ma"
+30,int>=10,allowed,body,427,,"out 0.62 to 0.63, below the SVM; the move to 30 epochs was made together with the higher hea"
+128,int>=10,allowed,body,433,yes,128 tokens
+16,int>=10,allowed,body,436,yes,16
+2,int<10,ignored,body,439,yes,2e-5
+5,int<10,ignored,body,439,yes,2e-5
+1,int<10,ignored,body,442,yes,1e-3
+3,int<10,ignored,body,442,yes,1e-3
+30,int>=10,allowed,body,445,yes,Up to 30; patience 5
+5,int<10,ignored,body,445,yes,Up to 30; patience 5
+20,int>=10,allowed,body,448,yes,BCE with positive weight capped at 20
+42,int>=10,allowed,body,454,yes,"42, 43, 44"
+43,int>=10,allowed,body,454,yes,"42, 43, 44"
+44,int>=10,allowed,body,454,yes,"42, 43, 44"
+20,int>=10,allowed,body,457,yes,20 epochs; descriptions of 128 tokens (256 in t
+128,int>=10,allowed,body,457,yes,20 epochs; descriptions of 128 tokens (256 in the ablation) [confirm]
+256,int>=10,registered,body,457,yes,20 epochs; descriptions of 128 tokens (256 in the ablation) [confirm]
+3,int<10,ignored,body,460,yes,"(3, 1, 1, 1), selected on the development set"
+1,int<10,ignored,body,460,yes,"(3, 1, 1, 1), selected on the development set"
+3,int<10,ignored,body,469,yes,"Python 3, pandas"
+1,int<10,ignored,body,495,,"-tuned threshold is reported. For ranking, P@1 and MRR@3 are computed per sentence and aver"
+3,int<10,ignored,body,495,,"eshold is reported. For ranking, P@1 and MRR@3 are computed per sentence and averaged over "
+95%,percent,registered,body,495,, difference is considered supported when its 95% interval excludes zero.
+117,int>=10,registered,body,498,,"ores over a label set C, which is either the 117 labels seen in training or all 127 test labe"
+127,int>=10,registered,body,498,,ither the 117 labels seen in training or all 127 test labels:
+95%,percent,registered,body,502,,and the 95% interval is formed by the 2.5th and 97.5th p
+2.5,decimal,UNREGISTERED,body,502,,and the 95% interval is formed by the 2.5th and 97.5th percentiles of these difference
+97.5,decimal,UNREGISTERED,body,502,, the 95% interval is formed by the 2.5th and 97.5th percentiles of these differences. The numb
+"10,000",int>=10,registered,body,502,,"differences. The number of resamples was B = 10,000 with a fixed random seed [confirm the seed]."
+117,int>=10,registered,body,513,yes,"Mean of per-label F1; over 117 labels seen in training, or all 127 test lab"
+127,int>=10,registered,body,513,yes,"F1; over 117 labels seen in training, or all 127 test labels"
+1,int<10,ignored,body,515,yes,P@1
+3,int<10,ignored,body,518,yes,MRR@3
+1,int<10,ignored,body,519,yes,Mean of 1/rank of the first correct technique within t
+3,int<10,ignored,body,519,yes,f the first correct technique within the top 3 (0 if none)
+0,int<10,ignored,body,519,yes,he first correct technique within the top 3 (0 if none)
+95%,percent,registered,body,521,yes,Δ with 95% interval
+100,int>=10,registered,body,528,,"removed tokens]. Plausibility is assessed on 100 sampled sentences, each rated by independent"
+180,int>=10,registered,body,536,,ad and returns a probability for each of the 180 training labels. The matcher branch embeds t
+1,int<10,ignored,body,564,yes,"P@1, MRR@3, F1, bootstrap intervals"
+3,int<10,ignored,body,564,yes,"P@1, MRR@3, F1, bootstrap intervals"
+180,int>=10,registered,body,572,,"rted into a binary indicator matrix over the 180 training labels. For the matcher, each train"
+180,int>=10,registered,body,576,," The training labels are indexed to form the 180-label space of the classifiers, and each sen"
+128,int>=10,allowed,body,576,,"zer of the respective model and truncated at 128 tokens. For the matcher, every training sent"
+20,int>=10,allowed,body,578,,"ive to positive training examples, capped at 20 to avoid unstable gradients for very rare la"
+1,int<10,ignored,body,578,,"sification head uses a higher learning rate (1e-3) than the encoder (2e-5), which lets the "
+3,int<10,ignored,body,578,,"ication head uses a higher learning rate (1e-3) than the encoder (2e-5), which lets the ran"
+2,int<10,ignored,body,578,,"igher learning rate (1e-3) than the encoder (2e-5), which lets the randomly initialised hea"
+5,int<10,ignored,body,578,,"er learning rate (1e-3) than the encoder (2e-5), which lets the randomly initialised head a"
+20,int>=10,allowed,body,580,,ine-tuned setting the encoder is trained for 20 epochs so that sentences move closer to the 
+256,int>=10,registered,body,580,,ngth is a design parameter: the variant with 256 description tokens was run beside the defaul
+128,int>=10,allowed,body,580,,ription tokens was run beside the default of 128 as an ablation.
+42,int>=10,allowed,body,582,,"tcher with seed k of the classifiers for k = 42, 43 and 44, so that the standard deviation r"
+43,int>=10,allowed,body,582,,"r with seed k of the classifiers for k = 42, 43 and 44, so that the standard deviation refle"
+44,int>=10,allowed,body,582,,"seed k of the classifiers for k = 42, 43 and 44, so that the standard deviation reflects the"
+42,int>=10,allowed,body,584,,"er trained with the positive weight and seed 42, using permutation SHAP with 40 permutations"
+40,int>=10,allowed,body,584,,"ght and seed 42, using permutation SHAP with 40 permutations per sentence. Attributions were"
+725,int>=10,registered,body,584,,"sentence. Attributions were computed for all 725 test sentences, and the deletion test and th"
+100,int>=10,registered,body,584,,sentences [confirm the sampling rule for the 100 sentences and the eligibility rule that leav
+93,int>=10,registered,body,584,,"ntences and the eligibility rule that leaves 93]. Raters saw the sentence, the predicted tec"
+128,int>=10,allowed,body,588,,"ing. Finally, the maximum sequence length of 128 tokens truncates 34 of the 725 test sentence"
+34,int>=10,registered,body,588,,"imum sequence length of 128 tokens truncates 34 of the 725 test sentences, and ten test labe"
+725,int>=10,registered,body,588,,"nce length of 128 tokens truncates 34 of the 725 test sentences, and ten test labels never oc"
+1,int<10,ignored,body,594,," the stored results exactly; it reproduced P@1 of 0.742 for the SVM, 0.774 for the classifi"
+0.742,decimal,registered,body,594,,"stored results exactly; it reproduced P@1 of 0.742 for the SVM, 0.774 for the classifiers-only "
+0.774,decimal,registered,body,594,,"tly; it reproduced P@1 of 0.742 for the SVM, 0.774 for the classifiers-only ensemble and 0.803 "
+0.803,decimal,registered,body,594,," 0.774 for the classifiers-only ensemble and 0.803 for the fusion. Second, an overlap check com"
+117,int>=10,registered,body,594,,bel-scope check recomputed macro-F1 over the 117 labels that occur in training and over all 1
+127,int>=10,registered,body,594,,"7 labels that occur in training and over all 127 test labels. Fourth, a seed-pairing check re"
+128,int>=10,allowed,body,594,, check counted the sentences longer than the 128-token limit. The outcomes of these checks ar
+1,int<10,ignored,body,601,yes,"Stored results reproduced: P@1 0.742 (SVM), 0.774 (classifiers-only ensembl"
+0.742,decimal,registered,body,601,yes,"Stored results reproduced: P@1 0.742 (SVM), 0.774 (classifiers-only ensemble), 0."
+0.774,decimal,registered,body,601,yes,"Stored results reproduced: P@1 0.742 (SVM), 0.774 (classifiers-only ensemble), 0.803 (fusion)"
+0.803,decimal,registered,body,601,yes,"42 (SVM), 0.774 (classifiers-only ensemble), 0.803 (fusion)"
+2,int<10,ignored,body,604,yes,2 test and 1 development sentence found
+1,int<10,ignored,body,604,yes,2 test and 1 development sentence found
+117,int>=10,registered,body,606,yes,Macro-F1 over 117 and over 127 labels
+127,int>=10,registered,body,606,yes,Macro-F1 over 117 and over 127 labels
+0.563,decimal,registered,body,607,yes,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500
+0.519,decimal,registered,body,607,yes,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500
+0.543,decimal,registered,body,607,yes,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500
+0.500,decimal,registered,body,607,yes,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500
+1,int<10,ignored,body,610,yes,"P@1 0.796 ± 0.006 (0.790, 0.796, 0.803)"
+0.796,decimal,registered,body,610,yes,"P@1 0.796 ± 0.006 (0.790, 0.796, 0.803)"
+0.006,decimal,registered,body,610,yes,"P@1 0.796 ± 0.006 (0.790, 0.796, 0.803)"
+0.790,decimal,registered,body,610,yes,"P@1 0.796 ± 0.006 (0.790, 0.796, 0.803)"
+0.803,decimal,registered,body,610,yes,"P@1 0.796 ± 0.006 (0.790, 0.796, 0.803)"
+128,int>=10,allowed,body,612,yes,Count sentences longer than 128 tokens
+34,int>=10,registered,body,613,yes,34 of 725 test sentences (4.7%) under the RoBER
+725,int>=10,registered,body,613,yes,34 of 725 test sentences (4.7%) under the RoBERTa toke
+4.7%,percent,registered,body,613,yes,34 of 725 test sentences (4.7%) under the RoBERTa tokenizer; 24 under SecBE
+24,int>=10,registered,body,613,yes,entences (4.7%) under the RoBERTa tokenizer; 24 under SecBERT
+30,int>=10,allowed,body,617,,"t 0.62 to 0.63, below the SVM; the change to 30 epochs was made together with the higher hea"
+0.705,decimal,registered,body,617,, to 30 epochs. RoBERTa reaches a micro-F1 of 0.705 ± 0.011 over the three seeds and SecBERT 0.7
+0.011,decimal,registered,body,617,,pochs. RoBERTa reaches a micro-F1 of 0.705 ± 0.011 over the three seeds and SecBERT 0.703 ± 0.0
+0.703,decimal,registered,body,617,,"705 ± 0.011 over the three seeds and SecBERT 0.703 ± 0.001, while the deterministic SVM reaches"
+0.001,decimal,registered,body,617,,"011 over the three seeds and SecBERT 0.703 ± 0.001, while the deterministic SVM reaches 0.696. "
+0.696,decimal,registered,body,617,,"± 0.001, while the deterministic SVM reaches 0.696. The macro-F1 values are lower because rare "
+0.563,decimal,registered,body,617,,lues are lower because rare labels are hard: 0.563 ± 0.013 for RoBERTa and 0.543 ± 0.008 for Se
+0.013,decimal,registered,body,617,, lower because rare labels are hard: 0.563 ± 0.013 for RoBERTa and 0.543 ± 0.008 for SecBERT ov
+0.543,decimal,registered,body,617,,bels are hard: 0.563 ± 0.013 for RoBERTa and 0.543 ± 0.008 for SecBERT over the 117 labels pres
+0.008,decimal,registered,body,617,, hard: 0.563 ± 0.013 for RoBERTa and 0.543 ± 0.008 for SecBERT over the 117 labels present in t
+117,int>=10,registered,body,617,,"BERTa and 0.543 ± 0.008 for SecBERT over the 117 labels present in training, falling to 0.519"
+0.519,decimal,registered,body,617,,"e 117 labels present in training, falling to 0.519 ± 0.012 and 0.500 ± 0.007 when all 127 test "
+0.012,decimal,registered,body,617,,"bels present in training, falling to 0.519 ± 0.012 and 0.500 ± 0.007 when all 127 test labels a"
+0.500,decimal,registered,body,617,,"nt in training, falling to 0.519 ± 0.012 and 0.500 ± 0.007 when all 127 test labels are counted"
+0.007,decimal,registered,body,617,,"aining, falling to 0.519 ± 0.012 and 0.500 ± 0.007 when all 127 test labels are counted. An ear"
+127,int>=10,registered,body,617,, to 0.519 ± 0.012 and 0.500 ± 0.007 when all 127 test labels are counted. An earlier configur
+15,int>=10,registered,body,617,,s are counted. An earlier configuration with 15 epochs reached a micro-F1 of only about 0.62
+0.62,decimal,registered,body,617,,"h 15 epochs reached a micro-F1 of only about 0.62 to 0.63, below the SVM; the change to 30 epo"
+0.63,decimal,registered,body,617,,"chs reached a micro-F1 of only about 0.62 to 0.63, below the SVM; the change to 30 epochs was "
+117,int>=10,registered,body,621,yes,Macro-F1 (117 labels)
+127,int>=10,registered,body,622,yes,Macro-F1 (127 labels)
+0.705,decimal,registered,body,624,yes,0.705 ± 0.011
+0.011,decimal,registered,body,624,yes,0.705 ± 0.011
+0.563,decimal,registered,body,625,yes,0.563 ± 0.013
+0.013,decimal,registered,body,625,yes,0.563 ± 0.013
+0.519,decimal,registered,body,626,yes,0.519 ± 0.012
+0.012,decimal,registered,body,626,yes,0.519 ± 0.012
+0.703,decimal,registered,body,628,yes,0.703 ± 0.001
+0.001,decimal,registered,body,628,yes,0.703 ± 0.001
+0.543,decimal,registered,body,629,yes,0.543 ± 0.008
+0.008,decimal,registered,body,629,yes,0.543 ± 0.008
+0.500,decimal,registered,body,630,yes,0.500 ± 0.007
+0.007,decimal,registered,body,630,yes,0.500 ± 0.007
+0.696,decimal,registered,body,632,yes,0.696
+1,int<10,ignored,body,637,," SVM 0.742. The zero-shot matcher is weak (P@1 = 0.228), which shows that general-purpose e"
+0.756,decimal,registered,body,637,,"r fine-tuning, a single matcher seed reaches 0.756 ± 0.015 and the three-seed matcher ensemble "
+0.755,decimal,registered,body,637,,d SecBERT classifiers reach P@1 of 0.756 and 0.755 (single-seed means 0.752 ± 0.007 and 0.743 ±
+0.752,decimal,registered,body,637,,ch P@1 of 0.756 and 0.755 (single-seed means 0.752 ± 0.007 and 0.743 ± 0.004) and the SVM 0.742
+0.007,decimal,registered,body,637,,f 0.756 and 0.755 (single-seed means 0.752 ± 0.007 and 0.743 ± 0.004) and the SVM 0.742. The ze
+0.743,decimal,registered,body,637,,d 0.755 (single-seed means 0.752 ± 0.007 and 0.743 ± 0.004) and the SVM 0.742. The zero-shot ma
+0.004,decimal,registered,body,637,,(single-seed means 0.752 ± 0.007 and 0.743 ± 0.004) and the SVM 0.742. The zero-shot matcher is
+0.742,decimal,registered,body,637,,0.752 ± 0.007 and 0.743 ± 0.004) and the SVM 0.742. The zero-shot matcher is weak (P@1 = 0.228)
+0.228,decimal,registered,body,637,," 0.742. The zero-shot matcher is weak (P@1 = 0.228), which shows that general-purpose embedding"
+0.015,decimal,registered,body,637,,"uning, a single matcher seed reaches 0.756 ± 0.015 and the three-seed matcher ensemble 0.777. T"
+0.777,decimal,registered,body,637,, ± 0.015 and the three-seed matcher ensemble 0.777. The classifiers-only ensemble reaches 0.774
+0.774,decimal,registered,body,637,,0.777. The classifiers-only ensemble reaches 0.774. The fusion with the weights fixed on the de
+0.803,decimal,registered,body,637,,"re used, and 0.796 ± 0.006 (0.790, 0.796 and 0.803) when seed k of the matcher is paired with s"
+0.796,decimal,registered,body,637,,"d inputs are used, and 0.796 ± 0.006 (0.790, 0.796 and 0.803) when seed k of the matcher is pai"
+0.006,decimal,registered,body,637,,"e seed-averaged inputs are used, and 0.796 ± 0.006 (0.790, 0.796 and 0.803) when seed k of the "
+0.790,decimal,registered,body,637,,"averaged inputs are used, and 0.796 ± 0.006 (0.790, 0.796 and 0.803) when seed k of the matcher"
+3,int<10,ignored,body,637,,ired with seed k of the classifiers; the MRR@3 of the seed-paired fusion is 0.852 ± 0.002. 
+0.852,decimal,registered,body,637,,iers; the MRR@3 of the seed-paired fusion is 0.852 ± 0.002. An equal-weight fusion reaches 0.77
+0.002,decimal,registered,body,637,,e MRR@3 of the seed-paired fusion is 0.852 ± 0.002. An equal-weight fusion reaches 0.779 with m
+0.779,decimal,registered,body,637,,.852 ± 0.002. An equal-weight fusion reaches 0.779 with matcher seed 42 only [confirm the secon
+42,int>=10,allowed,body,637,,eight fusion reaches 0.779 with matcher seed 42 only [confirm the second equal-weight figure
+0.782,decimal,registered,body,637,,y [confirm the second equal-weight figure of 0.782 and its basis]. The final results table of t
+0.800,decimal,registered,body,637,,"the experiment notebooks lists the fusion as 0.800 ± 0.001, and the evidence pack reproduces bo"
+0.001,decimal,registered,body,637,,d values; the earlier standard deviation of ±0.001 understated the variation because only the m
+1,int<10,ignored,body,640,yes,P@1
+0.742,decimal,registered,body,643,yes,0.742
+3,int<10,ignored,body,645,yes,"SecBERT, 3-seed average"
+0.755,decimal,registered,body,646,yes,0.755
+3,int<10,ignored,body,648,yes,"RoBERTa, 3-seed average"
+0.756,decimal,registered,body,649,yes,0.756
+0.228,decimal,registered,body,652,yes,0.228
+0.756,decimal,registered,body,655,yes,0.756 ± 0.015
+0.015,decimal,registered,body,655,yes,0.756 ± 0.015
+3,int<10,ignored,body,656,yes,Mean ± std over 3 seeds
+0.774,decimal,registered,body,658,yes,0.774
+3,int<10,ignored,body,660,yes,"Matcher ft20, 3-seed ensemble"
+0.777,decimal,registered,body,661,yes,0.777
+0.779,decimal,registered,body,664,yes,0.779
+42,int>=10,allowed,body,665,yes,"Robustness row, matcher seed 42"
+3,int<10,ignored,body,666,yes,"Fusion (3,1,1,1), seed-paired"
+1,int<10,ignored,body,666,yes,"Fusion (3,1,1,1), seed-paired"
+0.796,decimal,registered,body,667,yes,0.796 ± 0.006
+0.006,decimal,registered,body,667,yes,0.796 ± 0.006
+3,int<10,ignored,body,668,yes,MRR@3 0.852 ± 0.002
+0.852,decimal,registered,body,668,yes,MRR@3 0.852 ± 0.002
+0.002,decimal,registered,body,668,yes,MRR@3 0.852 ± 0.002
+3,int<10,ignored,body,669,yes,"Fusion (3,1,1,1), seed-averaged"
+1,int<10,ignored,body,669,yes,"Fusion (3,1,1,1), seed-averaged"
+0.803,decimal,registered,body,670,yes,0.803
+0.029,decimal,registered,body,676,,17 to 0.043) and by 0.019 in MRR@3 (0.010 to 0.029). It also exceeds the three-seed matcher ens
+1,int<10,ignored,body,676,,"n contrast, RoBERTa minus SVM is +0.014 in P@1 (−0.014 to +0.041) and +0.002 in MRR@3 (−0.0"
+95%,percent,registered,body,676,,e classifiers-only ensemble by 0.029 in P@1 (95% interval 0.017 to 0.043) and by 0.019 in MRR
+0.017,decimal,registered,body,676,,-only ensemble by 0.029 in P@1 (95% interval 0.017 to 0.043) and by 0.019 in MRR@3 (0.010 to 0.
+0.043,decimal,registered,body,676,,emble by 0.029 in P@1 (95% interval 0.017 to 0.043) and by 0.019 in MRR@3 (0.010 to 0.029). It 
+0.019,decimal,registered,body,676,,0.001 to 0.051 [confirm upper bound]) and by 0.019 in MRR@3 (0.003 to 0.036 [confirm]). With 10
+3,int<10,ignored,body,676,," in P@1 (−0.014 to +0.041) and +0.002 in MRR@3 (−0.018 to +0.022), and RoBERTa minus SecBER"
+0.010,decimal,registered,body,676,,erval 0.017 to 0.043) and by 0.019 in MRR@3 (0.010 to 0.029). It also exceeds the three-seed ma
+0.026,decimal,registered,body,676,,o exceeds the three-seed matcher ensemble by 0.026 in P@1 (0.001 to 0.051 [confirm upper bound]
+0.001,decimal,registered,body,676,,three-seed matcher ensemble by 0.026 in P@1 (0.001 to 0.051 [confirm upper bound]) and by 0.019
+0.051,decimal,registered,body,676,,d matcher ensemble by 0.026 in P@1 (0.001 to 0.051 [confirm upper bound]) and by 0.019 in MRR@3
+0.003,decimal,registered,body,676,,"confirm upper bound]) and by 0.019 in MRR@3 (0.003 to 0.036 [confirm]). With 10,000 resamples t"
+0.036,decimal,registered,body,676,,"pper bound]) and by 0.019 in MRR@3 (0.003 to 0.036 [confirm]). With 10,000 resamples the P@1 in"
+"10,000",int>=10,registered,body,676,,"19 in MRR@3 (0.003 to 0.036 [confirm]). With 10,000 resamples the P@1 interval against the match"
+0.048,decimal,registered,body,676,,"des zero and an exact McNemar test gives p = 0.048, so that comparison is borderline and would "
++0.014,decimal,registered,body,676,," is clear. In contrast, RoBERTa minus SVM is +0.014 in P@1 (−0.014 to +0.041) and +0.002 in MRR@"
+−0.014,decimal,registered,body,676,,"ontrast, RoBERTa minus SVM is +0.014 in P@1 (−0.014 to +0.041) and +0.002 in MRR@3 (−0.018 to +0"
++0.041,decimal,registered,body,676,,"oBERTa minus SVM is +0.014 in P@1 (−0.014 to +0.041) and +0.002 in MRR@3 (−0.018 to +0.022), and"
++0.002,decimal,registered,body,676,,nus SecBERT is +0.001 (−0.023 to +0.025) and +0.002 (−0.016 to +0.019). These intervals include 
+−0.018,decimal,registered,body,676,," P@1 (−0.014 to +0.041) and +0.002 in MRR@3 (−0.018 to +0.022), and RoBERTa minus SecBERT is +0."
++0.022,decimal,registered,body,676,,"14 to +0.041) and +0.002 in MRR@3 (−0.018 to +0.022), and RoBERTa minus SecBERT is +0.001 (−0.02"
++0.001,decimal,registered,body,676,,"018 to +0.022), and RoBERTa minus SecBERT is +0.001 (−0.023 to +0.025) and +0.002 (−0.016 to +0."
+−0.023,decimal,registered,body,676,,"0.022), and RoBERTa minus SecBERT is +0.001 (−0.023 to +0.025) and +0.002 (−0.016 to +0.019). Th"
++0.025,decimal,registered,body,676,,d RoBERTa minus SecBERT is +0.001 (−0.023 to +0.025) and +0.002 (−0.016 to +0.019). These interv
+−0.016,decimal,registered,body,676,,ERT is +0.001 (−0.023 to +0.025) and +0.002 (−0.016 to +0.019). These intervals include zero: th
++0.019,decimal,registered,body,676,,001 (−0.023 to +0.025) and +0.002 (−0.016 to +0.019). These intervals include zero: the transfor
+1,int<10,ignored,body,679,yes,Δ P@1 [interval]
+3,int<10,ignored,body,680,yes,Δ MRR@3 [interval]
++0.029,decimal,registered,body,682,yes,"+0.029 [+0.017, +0.043]"
++0.017,decimal,registered,body,682,yes,"+0.029 [+0.017, +0.043]"
++0.043,decimal,registered,body,682,yes,"+0.029 [+0.017, +0.043]"
++0.019,decimal,registered,body,683,yes,"+0.019 [+0.010, +0.029]"
++0.010,decimal,registered,body,683,yes,"+0.019 [+0.010, +0.029]"
++0.029,decimal,registered,body,683,yes,"+0.019 [+0.010, +0.029]"
+3,int<10,ignored,body,684,yes,Fusion − matcher 3-seed ensemble
++0.026,decimal,registered,body,685,yes,"+0.026 [+0.001, +0.051]"
++0.001,decimal,registered,body,685,yes,"+0.026 [+0.001, +0.051]"
++0.051,decimal,registered,body,685,yes,"+0.026 [+0.001, +0.051]"
++0.019,decimal,registered,body,686,yes,"+0.019 [+0.003, +0.036]"
++0.003,decimal,registered,body,686,yes,"+0.019 [+0.003, +0.036]"
++0.036,decimal,registered,body,686,yes,"+0.019 [+0.003, +0.036]"
++0.014,decimal,registered,body,688,yes,"+0.014 [−0.014, +0.041]"
+−0.014,decimal,registered,body,688,yes,"+0.014 [−0.014, +0.041]"
++0.041,decimal,registered,body,688,yes,"+0.014 [−0.014, +0.041]"
++0.002,decimal,registered,body,689,yes,"+0.002 [−0.018, +0.022]"
+−0.018,decimal,registered,body,689,yes,"+0.002 [−0.018, +0.022]"
++0.022,decimal,registered,body,689,yes,"+0.002 [−0.018, +0.022]"
++0.001,decimal,registered,body,691,yes,"+0.001 [−0.023, +0.025]"
+−0.023,decimal,registered,body,691,yes,"+0.001 [−0.023, +0.025]"
++0.025,decimal,registered,body,691,yes,"+0.001 [−0.023, +0.025]"
++0.002,decimal,registered,body,692,yes,"+0.002 [−0.016, +0.019]"
+−0.016,decimal,registered,body,692,yes,"+0.002 [−0.016, +0.019]"
++0.019,decimal,registered,body,692,yes,"+0.002 [−0.016, +0.019]"
+"10,000",int>=10,registered,body,693,,"ercentile bootstrap over test sentences with 10,000 resamples. Intervals that exclude zero are s"
++0.001,decimal,registered,body,693,,tcher-ensemble interval has a lower bound of +0.001 [confirm the upper bound and the MRR@3 inter
+3,int<10,ignored,body,693,, +0.001 [confirm the upper bound and the MRR@3 interval from the recomputation].
+1,int<10,ignored,body,697,,e [confirm the set removed]) changes every P@1 by at most 0.0007 and leaves the RoBERTa mic
+0.0007,decimal,registered,body,697,,e set removed]) changes every P@1 by at most 0.0007 and leaves the RoBERTa micro-F1 unchanged at
+0.705,decimal,registered,body,697,,"and leaves the RoBERTa micro-F1 unchanged at 0.705 ± 0.011, so train–test overlap is negligible"
+0.011,decimal,registered,body,697,,"es the RoBERTa micro-F1 unchanged at 0.705 ± 0.011, so train–test overlap is negligible. Macro-"
+127,int>=10,registered,body,697,,ds strongly on the label scope: counting all 127 test labels instead of the 117 that occur in
+117,int>=10,registered,body,697,,"of zero; the experiment notebooks report the 117-label variant, which ignores the unseen labe"
+0.563,decimal,registered,body,697,,"7 that occur in training lowers RoBERTa from 0.563 to 0.519 and SecBERT from 0.543 to 0.500, be"
+0.519,decimal,registered,body,697,,"cur in training lowers RoBERTa from 0.563 to 0.519 and SecBERT from 0.543 to 0.500, because the"
+0.543,decimal,registered,body,697,,"RoBERTa from 0.563 to 0.519 and SecBERT from 0.543 to 0.500, because the ten unseen labels cont"
+0.500,decimal,registered,body,697,,"rom 0.563 to 0.519 and SecBERT from 0.543 to 0.500, because the ten unseen labels contribute an"
+0.004,decimal,registered,body,697,,een labels also lowers the micro-F1 by about 0.004. The macro-F1 scope must therefore be stated
+34,int>=10,registered,body,697,,"acro-F1 is compared across studies. Finally, 34 of the 725 test sentences (4.7%) exceed the "
+725,int>=10,registered,body,697,," compared across studies. Finally, 34 of the 725 test sentences (4.7%) exceed the 128-token l"
+4.7%,percent,registered,body,697,,"dies. Finally, 34 of the 725 test sentences (4.7%) exceed the 128-token limit under the RoBERT"
+128,int>=10,allowed,body,697,, of the 725 test sentences (4.7%) exceed the 128-token limit under the RoBERTa tokenizer (24 
+24,int>=10,registered,body,697,,128-token limit under the RoBERTa tokenizer (24 under the SecBERT tokenizer) and are truncat
+256,int>=10,registered,body,697,,at a longer length [optional: re-evaluate at 256 tokens].
+1,int<10,ignored,body,704,yes,Fusion P@1
+0.8028,decimal,registered,body,705,yes,0.8028
+0.8022,decimal,registered,body,706,yes,0.8022
+1,int<10,ignored,body,708,yes,RoBERTa P@1
+0.7559,decimal,registered,body,709,yes,0.7559
+0.7552,decimal,registered,body,710,yes,0.7552
+1,int<10,ignored,body,712,yes,SecBERT P@1
+0.7545,decimal,registered,body,713,yes,0.7545
+0.7538,decimal,registered,body,714,yes,0.7538
+1,int<10,ignored,body,716,yes,SVM P@1
+0.7421,decimal,registered,body,717,yes,0.7421
+0.7414,decimal,registered,body,718,yes,0.7414
+1,int<10,ignored,body,720,yes,Matcher ensemble P@1
+0.7766,decimal,registered,body,721,yes,0.7766
+0.7759,decimal,registered,body,722,yes,0.7759
+117,int>=10,registered,body,723,yes,Macro-F1 scope 117 → 127 labels
+127,int>=10,registered,body,723,yes,Macro-F1 scope 117 → 127 labels
+0.563,decimal,registered,body,725,yes,0.563
+0.519,decimal,registered,body,726,yes,0.519
+0.543,decimal,registered,body,729,yes,0.543
+0.500,decimal,registered,body,730,yes,0.500
+10,int>=10,registered,body,731,yes,Count 10 unseen gold pairs
+0.705,decimal,registered,body,733,yes,0.705
+0.701,decimal,registered,body,734,yes,0.701
+0.703,decimal,registered,body,737,yes,0.703
+0.699,decimal,registered,body,738,yes,0.699
+725,int>=10,registered,body,741,,  groups the 725 test sentences by the number of training sen
+1,int<10,ignored,body,741,,"worse for rare ones (from 0.559 to 0.294 for 1 to 4 training sentences), and it ranks none "
+0.750,decimal,registered,body,741,,s on the matcher for common labels (P@1 from 0.750 to 0.819 for labels with 20 to 49 training s
+0.819,decimal,registered,body,741,,matcher for common labels (P@1 from 0.750 to 0.819 for labels with 20 to 49 training sentences 
+20,int>=10,allowed,body,741,,els (P@1 from 0.750 to 0.819 for labels with 20 to 49 training sentences and from 0.862 to 0
+49,int>=10,registered,body,741,,@1 from 0.750 to 0.819 for labels with 20 to 49 training sentences and from 0.862 to 0.897 f
+0.862,decimal,registered,body,741,,"ls with 20 to 49 training sentences and from 0.862 to 0.897 for 50 or more), but it is worse fo"
+0.897,decimal,registered,body,741,,"0 to 49 training sentences and from 0.862 to 0.897 for 50 or more), but it is worse for rare on"
+50,int>=10,registered,body,741,,"aining sentences and from 0.862 to 0.897 for 50 or more), but it is worse for rare ones (fro"
+0.559,decimal,registered,body,741,,"r more), but it is worse for rare ones (from 0.559 to 0.294 for 1 to 4 training sentences), and"
+0.294,decimal,registered,body,741,,"but it is worse for rare ones (from 0.559 to 0.294 for 1 to 4 training sentences), and it ranks"
+4,int<10,ignored,body,741,," for rare ones (from 0.559 to 0.294 for 1 to 4 training sentences), and it ranks none of th"
+0.0,decimal,registered,body,741,,o 0.5 only [confirm the reference system for 0.0]. The overall gain of the fusion therefore c
+0.5,decimal,registered,body,741,,f the unseen labels at rank five from 0.0 to 0.5 only [confirm the reference system for 0.0].
+1,int<10,ignored,body,745,yes,Matcher P@1
+1,int<10,ignored,body,746,yes,Fusion P@1
+0,int<10,ignored,body,747,yes,Unseen (0)
+10,int>=10,registered,body,748,yes,10
+0.200,decimal,registered,body,749,yes,0.200
+0.000,decimal,registered,body,750,yes,0.000
+1,int<10,ignored,body,751,yes,1–4
+4,int<10,ignored,body,751,yes,1–4
+34,int>=10,registered,body,752,yes,34
+0.559,decimal,registered,body,753,yes,0.559
+0.294,decimal,registered,body,754,yes,0.294
+5,int<10,ignored,body,755,yes,5–19
+19,int>=10,registered,body,755,yes,5–19
+96,int>=10,registered,body,756,yes,96
+20,int>=10,allowed,body,759,yes,20–49
+49,int>=10,registered,body,759,yes,20–49
+216,int>=10,registered,body,760,yes,216
+0.750,decimal,registered,body,761,yes,0.750
+0.819,decimal,registered,body,762,yes,0.819
+50,int>=10,registered,body,763,yes,50 or more
+369,int>=10,registered,body,764,yes,369
+0.862,decimal,registered,body,765,yes,0.862
+0.897,decimal,registered,body,766,yes,0.897
+42,int>=10,allowed,body,767,,firm whether the three-seed ensemble or seed 42]. The 5–9 and 10–19 buckets are reported sep
+5,int<10,ignored,body,767,,her the three-seed ensemble or seed 42]. The 5–9 and 10–19 buckets are reported separately 
+9,int<10,ignored,body,767,,r the three-seed ensemble or seed 42]. The 5–9 and 10–19 buckets are reported separately in
+10,int>=10,registered,body,767,,three-seed ensemble or seed 42]. The 5–9 and 10–19 buckets are reported separately in the ev
+19,int>=10,registered,body,767,,ee-seed ensemble or seed 42]. The 5–9 and 10–19 buckets are reported separately in the evide
+96,int>=10,registered,body,767,,sert from the support-bucket results]; their 96 sentences are the remainder.
+42,int>=10,allowed,body,769,,"classifier with the positive weight and seed 42, using 40 permutations, for all 725 test sen"
+40,int>=10,allowed,body,769,," with the positive weight and seed 42, using 40 permutations, for all 725 test sentences. In"
+725,int>=10,registered,body,769,," and seed 42, using 40 permutations, for all 725 test sentences. In the deletion test, removi"
+10.19,decimal,registered,body,769,,ted sentences [confirm the definition of the 10.19 difference and the eligibility rule behind 9
+93,int>=10,registered,body,769,,9 difference and the eligibility rule behind 93]. Repeated on all 645 eligible test sentence
+645,int>=10,registered,body,769,,logits with the expected direction in 644 of 645. This supports the claim that SHAP highlight
+10.13,decimal,registered,body,769,,"ible test sentences, the deletion test gives 10.13 logits with the expected direction in 644 of"
+644,int>=10,registered,body,769,, 10.13 logits with the expected direction in 644 of 645. This supports the claim that SHAP hi
+100,int>=10,registered,body,771,,"rating study. Rater A and Rater B each rated 100 sentences, but Rater C rated only three, all"
+−0.057,decimal,registered,body,771,,"two complete raters, Krippendorff’s alpha is −0.057 on the nominal scale and 0.031 on the ordina"
+0.031,decimal,registered,body,771,,"f’s alpha is −0.057 on the nominal scale and 0.031 on the ordinal scale, Fleiss’ kappa is −0.06"
+−0.062,decimal,registered,body,771,,"0.031 on the ordinal scale, Fleiss’ kappa is −0.062 and Cohen’s kappa 0.062. All values are clos"
+0.062,decimal,registered,body,771,,"e, Fleiss’ kappa is −0.062 and Cohen’s kappa 0.062. All values are close to zero, which is the "
+83%,percent,registered,body,771,,"pected from chance agreement. Rater B judged 83% of the explanations to make sense, so the ra"
+100,int>=10,registered,body,776,yes,100 / 100 / 3
+3,int<10,ignored,body,776,yes,100 / 100 / 3
+100,int>=10,registered,body,777,yes,"Krippendorff’s α, nominal (A and B, n = 100)"
+−0.057,decimal,registered,body,778,yes,−0.057
+0.031,decimal,registered,body,780,yes,0.031
+−0.062,decimal,registered,body,782,yes,−0.062
+0.062,decimal,registered,body,784,yes,0.062
+3,int<10,ignored,body,786,yes,"Undefined (3 common rows, all rated 2)"
+2,int<10,ignored,body,786,yes,"Undefined (3 common rows, all rated 2)"
+1,int<10,ignored,body,790,,"matcher. The gain is modest, about 0.03 in P@1 over the best control, and it depends on the"
++0.014,decimal,registered,body,790,,"@1 difference between RoBERTa and the SVM is +0.014 with an interval from −0.014 to +0.041, and "
+−0.014,decimal,registered,body,790,," and the SVM is +0.014 with an interval from −0.014 to +0.041, and the micro-F1 values differ by"
++0.041,decimal,registered,body,790,,"VM is +0.014 with an interval from −0.014 to +0.041, and the micro-F1 values differ by 0.009. Th"
+0.009,decimal,registered,body,790,,"to +0.041, and the micro-F1 values differ by 0.009. The result does not say that transformers a"
+"3,468",int>=10,registered,body,790,,"ransformers are useless, but it says that on 3,468 training sentences a well-configured sparse "
+0.228,decimal,registered,body,790,,cher is not useful without adaptation (P@1 = 0.228) but becomes competitive after fine-tuning (
+0.756,decimal,registered,body,790,,) but becomes competitive after fine-tuning (0.756 for a single seed and 0.777 for three seeds)
+0.777,decimal,registered,body,790,,"ter fine-tuning (0.756 for a single seed and 0.777 for three seeds), so adaptation to the domai"
++0.001,decimal,registered,body,790,,"atcher ensemble only marginally (lower bound +0.001, exact McNemar p = 0.048), so the gain is no"
+0.048,decimal,registered,body,790,,"nally (lower bound +0.001, exact McNemar p = 0.048), so the gain is not an artefact of ensembli"
+0.03,decimal,registered,body,790,,"ainst the matcher. The gain is modest, about 0.03 in P@1 over the best control, and it depends"
+0.779,decimal,registered,body,790,,n the tuned weights: equal weights give only 0.779. RQ4. The deletion test supports faithfulnes
+1,int<10,ignored,body,798,yes,"ΔP@1 +0.014 [−0.014, +0.041]"
++0.014,decimal,registered,body,798,yes,"ΔP@1 +0.014 [−0.014, +0.041]"
+−0.014,decimal,registered,body,798,yes,"ΔP@1 +0.014 [−0.014, +0.041]"
++0.041,decimal,registered,body,798,yes,"ΔP@1 +0.014 [−0.014, +0.041]"
+1,int<10,ignored,body,802,yes,P@1 0.228 → 0.756
+0.228,decimal,registered,body,802,yes,P@1 0.228 → 0.756
+0.756,decimal,registered,body,802,yes,P@1 0.228 → 0.756
+1,int<10,ignored,body,806,yes,ΔP@1 +0.029 and +0.026
++0.029,decimal,registered,body,806,yes,ΔP@1 +0.029 and +0.026
++0.026,decimal,registered,body,806,yes,ΔP@1 +0.029 and +0.026
+0,int<10,ignored,body,810,yes,Deletion test; α near 0
+23,int>=10,registered,body,814,,"plausible. First, sentences are short, about 23 tokens on average  , and many labels are sig"
+180,int>=10,registered,body,814,,"ectly. Second, the training set is small for 180 labels, so a pre-trained encoder has few exa"
+3,int<10,ignored,body,817,,"r, depends on the weights. With the weights (3, 1, 1, 1), which give the matcher the larges"
+1,int<10,ignored,body,817,,"t-tuned weights adds about three points of P@1 over the matched controls, and an untuned fu"
+0.803,decimal,registered,body,817,,"gainst one for each other component), P@1 is 0.803, whereas equal weights give 0.779, which is "
+0.779,decimal,registered,body,817,,"t), P@1 is 0.803, whereas equal weights give 0.779, which is only 0.002 to 0.005 above the cont"
+0.002,decimal,registered,body,817,,"reas equal weights give 0.779, which is only 0.002 to 0.005 above the controls (0.774 and 0.777"
+0.005,decimal,registered,body,817,,"l weights give 0.779, which is only 0.002 to 0.005 above the controls (0.774 and 0.777). The we"
+0.774,decimal,registered,body,817,,h is only 0.002 to 0.005 above the controls (0.774 and 0.777). The weights were tuned on a deve
+0.777,decimal,registered,body,817,,0.002 to 0.005 above the controls (0.774 and 0.777). The weights were tuned on a development se
+604,int>=10,registered,body,817,,"e weights were tuned on a development set of 604 sentences, and the interval for the comparis"
+0.001,decimal,registered,body,817,,omparison with the matcher ensemble is wide (0.001 to 0.051). A finer development grid selects 
+0.051,decimal,registered,body,817,," with the matcher ensemble is wide (0.001 to 0.051). A finer development grid selects (4, 1, 1,"
+4,int<10,ignored,body,817,,"to 0.051). A finer development grid selects (4, 1, 1, 1) instead, and the test P@1 of that "
+1,int<10,ignored,body,820,,mple components reaches a similar level on P@1. Any comparison must also take into account 
+0.770,decimal,registered,body,820,,eds the reported P@1 (0.796 to 0.803 against 0.770) but is below the reported MRR@3 (0.852 agai
+3,int<10,ignored,body,820,,"against 0.770) but is below the reported MRR@3 (0.852 against 0.864), and the single fine-t"
+0.864,decimal,registered,body,820,,"t is below the reported MRR@3 (0.852 against 0.864), and the single fine-tuned matcher (0.756) "
+0.796,decimal,registered,body,820,,  The fused system exceeds the reported P@1 (0.796 to 0.803 against 0.770) but is below the rep
+0.803,decimal,registered,body,820,,ed system exceeds the reported P@1 (0.796 to 0.803 against 0.770) but is below the reported MRR
+0.852,decimal,registered,body,820,,"inst 0.770) but is below the reported MRR@3 (0.852 against 0.864), and the single fine-tuned ma"
+0.756,decimal,registered,body,820,,"t 0.864), and the single fine-tuned matcher (0.756) is below the reported P@1. The evidence the"
+1,int<10,ignored,body,823,yes,P@1
+3,int<10,ignored,body,824,yes,MRR@3
+0.770,decimal,registered,body,827,yes,0.770
+0.864,decimal,registered,body,828,yes,0.864
+0.756,decimal,registered,body,831,yes,0.756 ± 0.015
+0.015,decimal,registered,body,831,yes,0.756 ± 0.015
+3,int<10,ignored,body,834,yes,"Fusion (3,1,1,1), seed-paired"
+1,int<10,ignored,body,834,yes,"Fusion (3,1,1,1), seed-paired"
+0.796,decimal,registered,body,835,yes,0.796 ± 0.006
+0.006,decimal,registered,body,835,yes,0.796 ± 0.006
+0.852,decimal,registered,body,836,yes,0.852 ± 0.002
+0.002,decimal,registered,body,836,yes,0.852 ± 0.002
+3,int<10,ignored,body,838,yes,"Fusion (3,1,1,1), seed-averaged"
+1,int<10,ignored,body,838,yes,"Fusion (3,1,1,1), seed-averaged"
+0.803,decimal,registered,body,839,yes,0.803
+0.856,decimal,registered,body,840,yes,0.856
+0.85,decimal,registered,body,848,,"ected threshold of the RoBERTa classifier is 0.85 for all three seeds, which is the upper edge"
+15,int>=10,registered,body,848,,nded-grid analysis pending]. The change from 15 to 30 epochs was made together with a higher
+30,int>=10,allowed,body,848,,rid analysis pending]. The change from 15 to 30 epochs was made together with a higher head 
+42,int>=10,allowed,body,848,,"and no-weight configurations exists for seed 42 only, where the two tied on the development "
+0.736,decimal,registered,body,848,,", where the two tied on the development set (0.736 each) and the version without the weight was"
+0.770,decimal,registered,body,850,,"ilable in the project folder, so the numbers 0.770 and 0.864 were taken from the published arti"
+0.864,decimal,registered,body,850,,"the project folder, so the numbers 0.770 and 0.864 were taken from the published article only. "
+1,int<10,ignored,body,852,,e one component of the fused system: the top-1 label of the fusion differs from that of the
+3,int<10,ignored,body,852,,P@1 and MRR@3 are computed against noisy labels and treat 
+100,int>=10,registered,body,852,,un for one model and one seed on a sample of 100 sentences without a comparison explainer. Th
+108,int>=10,registered,body,852,," that of the explained RoBERTa classifier on 108 of 725 test sentences (14.9%), so for these "
+725,int>=10,registered,body,852,,"f the explained RoBERTa classifier on 108 of 725 test sentences (14.9%), so for these sentenc"
+14.9%,percent,registered,body,852,,"RTa classifier on 108 of 725 test sentences (14.9%), so for these sentences the highlighted tok"
++0.001,decimal,registered,body,854,," lower end of one interval is close to zero (+0.001) and its exact McNemar p-value is 0.048, so "
+0.048,decimal,registered,body,854,,"ro (+0.001) and its exact McNemar p-value is 0.048, so it would not remain significant after a "
+34,int>=10,registered,body,854,,cription length was not re-evaluated for the 34 truncated sentences.
+1,int<10,ignored,body,859,,"0.228 to 0.756), and that fusion reaches a P@1 of 0.803 and improves on the classifiers-onl"
+0.228,decimal,registered,body,859,,"uning is essential for the matcher (P@1 from 0.228 to 0.756), and that fusion reaches a P@1 of "
+0.756,decimal,registered,body,859,,"essential for the matcher (P@1 from 0.228 to 0.756), and that fusion reaches a P@1 of 0.803 and"
+0.803,decimal,registered,body,859,," to 0.756), and that fusion reaches a P@1 of 0.803 and improves on the classifiers-only ensembl"
+0.029,decimal,registered,body,859,,improves on the classifiers-only ensemble by 0.029 and only marginally on the matcher ensemble 
+0.026,decimal,registered,body,859,,"and only marginally on the matcher ensemble (0.026, borderline), while being worse than the mat"
+0.04,decimal,registered,body,859,, the macro-F1 scope changes results by about 0.04.
+1,int<10,ignored,body,860,,at tuned fusion adds about three points of P@1 over the classifiers and marginally over the
+1,int<10,ignored,body,862,,Objective 1 – Literature review: Achieved.   reviews the
+2,int<10,ignored,body,863,,"Objective 2 – Baselines: Achieved. SVM, RoBERTa and SecB"
+3,int<10,ignored,body,864,,Objective 3 – Matcher: Achieved. The matcher was fine-tu
+4,int<10,ignored,body,865,,Objective 4 – Fusion: Achieved. Fusion improves on the c
++0.001,decimal,registered,body,865,,ensemble the gain is borderline (lower bound +0.001) and fusion is worse on rare labels.
+5,int<10,ignored,body,866,,Objective 5 – Explanations: Partially achieved. Faithful
+180,int>=10,registered,body,870,,"ed training collection with a mapping to the 180-label space, to cleaned subsets such as TRAM"
+256,int>=10,registered,body,870,,-evaluate the matcher and the classifiers at 256 tokens.
+42,int>=10,allowed,appendix,908,yes,"ecBERT, pw and nopw, seeds 42–44 (nopw: seed 42), 30 epochs"
+44,int>=10,allowed,appendix,908,yes,"RoBERTa and SecBERT, pw and nopw, seeds 42–44 (nopw: seed 42), 30 epochs"
+30,int>=10,allowed,appendix,908,yes,"T, pw and nopw, seeds 42–44 (nopw: seed 42), 30 epochs"
+30,int>=10,allowed,appendix,911,yes,Identical copy of the 30-epoch runs (verified by file hashing)
+42,int>=10,allowed,appendix,914,yes,"RoBERTa and SecBERT, seeds 42–44, 15 epochs"
+44,int>=10,allowed,appendix,914,yes,"RoBERTa and SecBERT, seeds 42–44, 15 epochs"
+15,int>=10,registered,appendix,914,yes,"RoBERTa and SecBERT, seeds 42–44, 15 epochs"
+15,int>=10,registered,appendix,917,yes,Identical copy of the 15-epoch runs (verified by file hashing)
+42,int>=10,allowed,appendix,920,yes,": zeroshot, ft_s42, ft20 and ft20L256 (seeds 42–44)"
+44,int>=10,allowed,appendix,920,yes,"eroshot, ft_s42, ft20 and ft20L256 (seeds 42–44)"
+1,int<10,ignored,appendix,929,,"s notebook; the reproduction check expects P@1 of 0.742 (SVM), 0.774 (classifiers-only ense"
+2,int<10,ignored,appendix,929,,equirements file [export requirements.txt]. (2) Copy the training split next to the other d
+3,int<10,ignored,appendix,929,,the other data files [copy tram_train.tsv]. (3) Recompute the stored scores with the analys
+0.742,decimal,registered,appendix,929,,"ebook; the reproduction check expects P@1 of 0.742 (SVM), 0.774 (classifiers-only ensemble) and"
+0.774,decimal,registered,appendix,929,,"production check expects P@1 of 0.742 (SVM), 0.774 (classifiers-only ensemble) and 0.803 (fusio"
+0.803,decimal,registered,appendix,929,,"(SVM), 0.774 (classifiers-only ensemble) and 0.803 (fusion). (4) Recompute the paired bootstrap"
+4,int<10,ignored,appendix,929,,ssifiers-only ensemble) and 0.803 (fusion). (4) Recompute the paired bootstrap and the agre
+100,int>=10,registered,appendix,931,,ampling procedure]. Two raters completed all 100 sentences; the third completed three. Raters

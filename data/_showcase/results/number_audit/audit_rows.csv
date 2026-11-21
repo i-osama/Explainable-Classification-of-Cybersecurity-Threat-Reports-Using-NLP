@@ -1,0 +1,154 @@
+token,para,context,script_status,status,supporting_key_or_reason
+10,7,"December 10, 2026",registered,SUPPORTED,"SUPPORTED by A5, A5.unseen, E2, E2.all, E5.comp_logit, E5.suff_logit ..."
+"4,797",191,"mapping on the TRAM dataset (4,797 sentences: 3,468 for training, 604 for development and 725 for testing)",registered,SUPPORTED,SUPPORTED by A1
+"3,468",191,"(4,797 sentences: 3,468 for training, 604 for development and 725 for testing)",registered,SUPPORTED,"SUPPORTED by A2, A2.train, A10.rows.tram"
+604,191,"3,468 for training, 604 for development and 725 for testing",registered,SUPPORTED,"SUPPORTED by A2, A2.dev"
+725,191,604 for development and 725 for testing,registered,SUPPORTED,"SUPPORTED by A2, A2.test, E1, E1.n, E4"
+0.705,192,"micro-F1 is 0.705, 0.703 and 0.696",registered,SUPPORTED,"SUPPORTED by B1, G2.roberta.micro.notebook"
+0.703,192,"micro-F1 is 0.705, 0.703 and 0.696",registered,SUPPORTED,"SUPPORTED by B2, B2.s44, G2.secbert.micro.notebook"
+0.696,192,"micro-F1 is 0.705, 0.703 and 0.696",registered,SUPPORTED,"SUPPORTED by B3, G2.svm.micro.notebook"
++0.014,192,P@1 between RoBERTa and the SVM is +0.014 with a 95% interval of -0.015 to +0.040,registered,SUPPORTED,SUPPORTED by C3
+95%,192,with a 95% interval of,registered,SUPPORTED,SUPPORTED by E5.n
+-0.015,192,RoBERTa and the SVM is +0.014 with a 95% interval of -0.015 to +0.040,registered,NOT SUPPORTED,"NOT SUPPORTED: number differs. The draft says 10,000 resamples; at 10,000 the C3 interval is [-0.014, +0.041]. -0.015 / +0.040 is the 1,000-resample notebook-setting interval (_evidence_pack/04_bootstrap.csv)"
++0.040,192,RoBERTa and the SVM is +0.014 with a 95% interval of -0.015 to +0.040,registered,NOT SUPPORTED,"NOT SUPPORTED: number differs. See the row above: C3 at 10,000 resamples is [-0.014, +0.041]"
+0.228,192,Fine-tuning raises the matcher's P@1 from 0.228 (zero-shot) to 0.756,registered,SUPPORTED,SUPPORTED by B10a
+0.756,192,matcher's P@1 from 0.228 (zero-shot) to 0.756,registered,SUPPORTED,"SUPPORTED by B7, B10b, G12.p1.roberta"
+0.803,192,fusion reaches a P@1 of 0.803,registered,SUPPORTED,"SUPPORTED by B13a, ABL.full, G4.secbert.10_19, G12.p1.fusion"
+0.029,192,exceeds a classifiers-only ensemble by 0.029 (interval 0.017 to 0.043),registered,SUPPORTED,"SUPPORTED by C1, C1.mrr, ABL.A1, ABL.A1.mrr, G5.clsonly.1_4"
+0.017,192,by 0.029 (interval 0.017 to 0.043),registered,SUPPORTED,"SUPPORTED by C1, ABL.A1, G9.fam1, G9.fam3"
+0.043,192,by 0.029 (interval 0.017 to 0.043),registered,SUPPORTED,"SUPPORTED by C1, ABL.A1"
+0.026,192,a three-seed matcher ensemble by 0.026 (interval 0.001 to 0.051,registered,SUPPORTED,SUPPORTED by C2
+0.001,192,matcher ensemble by 0.026 (interval 0.001 to 0.051 [confirm upper bound],registered,SUPPORTED,"SUPPORTED by C2 (lower bound at 10,000 resamples); upper bound 0.051 confirmed: C2 = [+0.001, +0.051]"
+0.051,192,matcher ensemble by 0.026 (interval 0.001 to 0.051 [confirm upper bound],registered,SUPPORTED,"SUPPORTED by B0, C2"
+0.048,192,exact McNemar p = 0.048,registered,SUPPORTED,SUPPORTED by C2.p
+0.779,192,with equal weights the gain is small (P@1 of 0.779),registered,SUPPORTED,SUPPORTED by B11
+193,197,"the Enterprise matrix contains 14 tactics, 193 techniques and 401 sub-techniques",UNREGISTERED,LITERATURE,"LITERATURE: ATT&CK v12 matrix size (14 tactics / 193 techniques / 401 sub-techniques): from the cited ATT&CK source, not from a project file. Not to be confused with the 193 distinct labels of the dataset"
+401,197,"the Enterprise matrix contains 14 tactics, 193 techniques and 401 sub-techniques",UNREGISTERED,LITERATURE,LITERATURE: as above; the baseline paper's background section says 196 techniques and 411 sub-techniques for v12.0 (_evidence_pack/08_baseline.md): check the source cited for 193 / 401
+15,199,the current website describes 15 Enterprise tactics,registered,SUPPORTED,SUPPORTED by E4
+13,231,ATT&CK Enterprise tactics page for version 13,registered,SUPPORTED,SUPPORTED by E5.comp_logit.shap
+180,234,training portion of the dataset used here contains 180 distinct labels,registered,SUPPORTED,SUPPORTED by A3
+127,234,ten of the 127 labels that occur in the test set never occur in training,registered,SUPPORTED,SUPPORTED by A4
+1.16,272,"one or more technique identifiers, 1.16 on average",UNREGISTERED,LITERATURE,"LITERATURE: baseline paper Table 1 (TRAM: 1.16 labels, 23 tokens); confirmed from arXiv:2401.10337, see _evidence_pack/08_baseline.md"
+23,272,"sentences are short, with an average of 23 tokens",registered,SUPPORTED,"SUPPORTED by E6.partial, G5.clsonly.total, G10.ms.secbert"
+24.8,311,Annotation errors reported; low F1 (24.8) on external data,UNREGISTERED,LITERATURE,LITERATURE: related-work table; no project file; reference must be verified (docs/RELATED_WORK_VERIFIED.md)
+"39,296",313,"fine-tuned on an augmented sentence-TTP set of 39,296 samples (193 TTPs)",UNREGISTERED,LITERATURE,LITERATURE: related-work table; reference must be verified
+92.42%,314,High F1 (92.42%) on its augmented data; STIX export,UNREGISTERED,LITERATURE,LITERATURE: related-work table; reference must be verified
+0.770,318,"P@1 0.770, MRR@3 0.864 on TRAM",registered,SUPPORTED,SUPPORTED by F1
+0.864,318,"P@1 0.770, MRR@3 0.864 on TRAM",registered,SUPPORTED,"SUPPORTED by B11.avg.mrr3, F2, G4.fusion.50plus"
+24,319,long training (about 24 h on one V100),registered,SUPPORTED,"SUPPORTED by A7, A7.secbert, E6.partial"
+"6,612",322,"Multi-stage ranking; benchmark of 6,612 descriptions",UNREGISTERED,LITERATURE,LITERATURE: related-work table; reference must be verified
+57.83%,323,P@1 57.83% on its own data; slow (about 8.9 s per query),UNREGISTERED,LITERATURE,LITERATURE: related-work table; reference must be verified
+8.9,323,slow (about 8.9 s per query),UNREGISTERED,LITERATURE,LITERATURE: related-work table; reference must be verified
+37,331,"Cleaned set covers only 37 techniques; document-level, LLM-based",UNREGISTERED,LITERATURE,LITERATURE: related-work table; reference must be verified
+0.674,334,extreme-classification baselines reach a P@1 of 0.674 on the same data,UNREGISTERED,LITERATURE,"LITERATURE: baseline paper Table 2, XR-LINEAR on TRAM: P@1 .674; confirmed from arXiv:2401.10337 (_evidence_pack/08_baseline.md)"
+255,357,development winner of a first grid of 255 weight vectors,registered,SUPPORTED,"SUPPORTED by B14, B14.coarse_n"
+"1,711",357,"a later, finer grid of 1,711 vectors on the same development set selects (4, 1, 1, 1)",registered,SUPPORTED,"SUPPORTED by B14, B14.wide_n"
+733,370,Descriptions of 733 ATT&CK technique and sub-technique entries,registered,SUPPORTED,"SUPPORTED by A8, A8.space"
+737,370,"the description file lists 737 entries, and four revoked identifiers were dropped",registered,SUPPORTED,"SUPPORTED by A8, A8.file"
+"14,465",370,"larger training collection of the repository (14,465 rows from three sources and 478 labels)",registered,SUPPORTED,SUPPORTED by A10.combined_rows
+478,370,"(14,465 rows from three sources and 478 labels)",registered,SUPPORTED,SUPPORTED by A10.combined_labels
+117,370,"the test portion 127, of which 117 also occur in training",registered,SUPPORTED,"SUPPORTED by A5, A5.seen"
+256,395,"A variant with a longer description length (256 instead of 128 tokens, ft20L256)",registered,SETTING,SETTING: matcher ablation ft20L256: label_max_len_train=256 (Exp_2.1 CELL 16)
+15,427,An earlier configuration trained for 15 epochs reached a micro-F1 of only about 0.62 to 0.63,registered,SUPPORTED,SUPPORTED by E4
+0.62,427,"15 epochs reached a micro-F1 of only about 0.62 to 0.63, below the SVM",registered,SUPPORTED,SUPPORTED by H1.roberta_15ep
+0.63,427,"15 epochs reached a micro-F1 of only about 0.62 to 0.63, below the SVM",registered,SUPPORTED,SUPPORTED by H1.secbert_15ep
+2.5,502,the 95% interval is formed by the 2.5th and 97.5th percentiles,UNREGISTERED,SETTING,SETTING: percentile of the 95% interval
+97.5,502,the 95% interval is formed by the 2.5th and 97.5th percentiles,UNREGISTERED,SETTING,SETTING: percentile of the 95% interval
+"10,000",502,"The number of resamples was B = 10,000 with a fixed random seed [confirm the seed]",registered,SETTING,SETTING: bootstrap resamples: configs/analysis.yaml; seed = numpy default_rng(20261114)
+100,528,Plausibility is assessed on 100 sampled sentences,registered,SETTING,SETTING: sample size of the rating sheet: first 100 of RandomState(42).permutation(725) (Exp_3_2_hand_check CELL 0)
+34,588,128 tokens truncates 34 of the 725 test sentences,registered,SUPPORTED,"SUPPORTED by A7, A7.roberta, G4.n.1_4, G11.roberta, G11.secbert"
+93,584,the eligibility rule that leaves 93,registered,SUPPORTED,"SUPPORTED by E3, E3.n"
+0.742,594,"it reproduced P@1 of 0.742 for the SVM, 0.774 for the classifiers-only ensemble and 0.803 for the fusion",registered,SUPPORTED,"SUPPORTED by B6, B9, ABL.no_matcher, G4.roberta.10_19, G12.p1.svm"
+0.774,594,0.774 for the classifiers-only ensemble,registered,SUPPORTED,"SUPPORTED by B6, B9, B13a, ABL.full, ABL.no_matcher"
+0.563,607,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500,registered,SUPPORTED,"SUPPORTED by B4, B4.117, G2.roberta.macro.notebook, G2.roberta.macro.seen_test, B4.117.sd"
+0.519,607,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500,registered,SUPPORTED,"SUPPORTED by B4, B4.127, G2.roberta.macro.all_test, B4.127.sd"
+0.543,607,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500,registered,SUPPORTED,"SUPPORTED by B3.macro117, B5, B5.117, G2.secbert.macro.notebook, G2.secbert.macro.seen_test, G2.svm.macro.notebook ..."
+0.500,607,RoBERTa 0.563 and 0.519; SecBERT 0.543 and 0.500,registered,SUPPORTED,"SUPPORTED by B3.macro127, B5, B5.127, G2.secbert.macro.all_test, G2.svm.macro.all_test, G4.matcher.unseen ..."
+0.796,610,"P@1 0.796 +/- 0.006 (0.790, 0.796, 0.803)",registered,SUPPORTED,SUPPORTED by B12a
+0.006,610,"P@1 0.796 +/- 0.006 (0.790, 0.796, 0.803)",registered,SUPPORTED,"SUPPORTED by B12a, ABL.A2, ABL.A3.p, G9.fam4"
+0.790,610,"P@1 0.796 +/- 0.006 (0.790, 0.796, 0.803)",registered,SUPPORTED,"SUPPORTED by B7.mrr3, ABL.no_secbert"
+4.7%,613,34 of 725 test sentences (4.7%) under the RoBERTa tokenizer; 24 under SecBERT,registered,SUPPORTED,"SUPPORTED by G1.prior_microf1_notebook, G1.prior_microf1_seen_test, G1.prior_microf1_all_test, A7.roberta_pct"
+24,613,under the RoBERTa tokenizer; 24 under SecBERT,registered,SUPPORTED,"SUPPORTED by A7, A7.secbert, E6.partial"
+0.011,617,RoBERTa reaches a micro-F1 of 0.705 +/- 0.011 over the three seeds,registered,SUPPORTED,"SUPPORTED by B1, B1.all, G5.matcher.50plus, G5.clsonly.50plus, G9.fam4"
+0.001,617,SecBERT 0.703 +/- 0.001,registered,SUPPORTED,"SUPPORTED by B2, B2.all, B12nb, B12nb.mrr3, C2, C4 ..."
+0.013,617,macro-F1 0.563 +/- 0.013 for RoBERTa,registered,SUPPORTED,SUPPORTED by B4.117.sd
+0.008,617,0.543 +/- 0.008 for SecBERT over the 117 labels,registered,SUPPORTED,"SUPPORTED by B14.top10_wide.spread, B5.117.sd"
+0.012,617,falling to 0.519 +/- 0.012 and 0.500 +/- 0.007 when all 127 test labels are counted,registered,SUPPORTED,"SUPPORTED by ABL.A4, ABL.A4.mrr, G7.ece.secbert, B4.127.sd"
+0.007,617,falling to 0.519 +/- 0.012 and 0.500 +/- 0.007 when all 127 test labels are counted,registered,SUPPORTED,"SUPPORTED by B1.p1_seedmean, ABL.A3, G7.ece.roberta, G9.fam1, G9.fam2, B5.127.sd"
+0.755,637,RoBERTa and SecBERT classifiers reach P@1 of 0.756 and 0.755 (single-seed means 0.752 +/- 0.007 and 0.743 +/- 0.004),registered,SUPPORTED,"SUPPORTED by G4.secbert.20_49, G12.p1.roberta, G12.p1.secbert"
+0.752,637,single-seed means 0.752 +/- 0.007 and 0.743 +/- 0.004,registered,SUPPORTED,"SUPPORTED by B1.p1_seedmean, ABL.no_roberta, G8.techlevel.svm"
+0.007,637,single-seed means 0.752 +/- 0.007,registered,SUPPORTED,"SUPPORTED by B1.p1_seedmean, ABL.A3, G7.ece.roberta, G9.fam1, G9.fam2, B5.127.sd"
+0.743,637,single-seed means 0.752 +/- 0.007 and 0.743 +/- 0.004,registered,SUPPORTED,SUPPORTED by B2.p1_seedmean
+0.004,637,0.743 +/- 0.004,registered,SUPPORTED,"SUPPORTED by B2.p1_seedmean, ABL.A2, G2.roberta.micro_drop, G2.secbert.micro_drop"
+0.015,637,a single matcher seed reaches 0.756 +/- 0.015,registered,SUPPORTED,"SUPPORTED by B10b, ABL.A2"
+0.777,637,the three-seed matcher ensemble 0.777,registered,SUPPORTED,"SUPPORTED by B10c, G12.p1.matcher"
+0.852,637,the MRR@3 of the seed-paired fusion is 0.852 +/- 0.002,registered,SUPPORTED,SUPPORTED by B12b
+0.002,637,the MRR@3 of the seed-paired fusion is 0.852 +/- 0.002,registered,SUPPORTED,"SUPPORTED by B12b, C3.mrr, C4.mrr"
+0.782,637,[confirm the second equal-weight figure of 0.782 and its basis],registered,SUPPORTED,"SUPPORTED by B11.avg, ABL.no_roberta, G4.svm.20_49"
+0.800,637,the experiment notebooks lists the fusion as 0.800 +/- 0.001,registered,SUPPORTED,"SUPPORTED by B12nb, B14.test3111, B14.top10_coarse"
+0.001,637,the earlier standard deviation of +/-0.001 understated the variation,registered,SUPPORTED,"SUPPORTED by B2, B2.all, B12nb, B12nb.mrr3, C2, C4 ..."
+0.019,676,and by 0.019 in MRR@3 (0.010 to 0.029) [fusion minus classifiers-only],registered,SUPPORTED,"SUPPORTED by B14.top10_coarse.spread, C1.mrr, C2.mrr, C4.mrr, ABL.A1.mrr, G5.matcher.20_49"
+0.010,676,by 0.019 in MRR@3 (0.010 to 0.029) [fusion minus classifiers-only],registered,SUPPORTED,"SUPPORTED by C1.mrr, ABL.A1.mrr, ABL.A3.mrr, G9.fam2, H1.roberta_15ep, H1.secbert_15ep"
+0.029,676,by 0.019 in MRR@3 (0.010 to 0.029) [fusion minus classifiers-only],registered,SUPPORTED,"SUPPORTED by C1, C1.mrr, ABL.A1, ABL.A1.mrr, G5.clsonly.1_4"
+0.019,676,matcher ensemble ... and by 0.019 in MRR@3 (0.003 to 0.037 [confirm]),registered,SUPPORTED,"SUPPORTED by B14.top10_coarse.spread, C1.mrr, C2.mrr, C4.mrr, ABL.A1.mrr, G5.matcher.20_49"
+0.003,676,fusion minus matcher ensemble MRR@3 0.019 (0.003 to 0.037 [confirm]),registered,SUPPORTED,"SUPPORTED by C2.mrr, ABL.A2.mrr, ABL.A3.mrr, ABL.A4, ABL.A4.mrr"
+0.037,676,fusion minus matcher ensemble MRR@3 0.019 (0.003 to 0.037 [confirm]),UNREGISTERED,NOT SUPPORTED,"NOT SUPPORTED: number differs. C2 MRR@3 interval is [+0.003, +0.036]"
++0.002,676,RoBERTa minus SVM ... +0.002 in MRR@3 (-0.018 to +0.020),registered,SUPPORTED,"SUPPORTED by B12b, C3.mrr, C4.mrr"
+-0.018,676,RoBERTa minus SVM +0.002 in MRR@3 (-0.018 to +0.020),registered,SUPPORTED,"SUPPORTED by C3.mrr, ABL.A3.mrr"
++0.020,676,RoBERTa minus SVM +0.002 in MRR@3 (-0.018 to +0.020),UNREGISTERED,NOT SUPPORTED,"NOT SUPPORTED: number differs. C3 MRR@3 is +0.002 [-0.018, +0.022]"
++0.001,676,RoBERTa minus SecBERT is +0.001 (-0.022 to +0.025) [P@1],registered,SUPPORTED,"SUPPORTED by B2, B2.all, B12nb, B12nb.mrr3, C2, C4 ..."
+-0.022,676,RoBERTa minus SecBERT is +0.001 (-0.022 to +0.025) [P@1],registered,NOT SUPPORTED,"NOT SUPPORTED: number differs. C4 at 10,000 resamples is [-0.023, +0.025]; -0.022 is the 1,000-resample value"
++0.025,676,RoBERTa minus SecBERT is +0.001 (-0.022 to +0.025) [P@1],registered,SUPPORTED,SUPPORTED by C4
++0.003,676,RoBERTa minus SecBERT ... and +0.003 (-0.015 to +0.020) [MRR@3],registered,NOT SUPPORTED,"NOT SUPPORTED: number differs. C4 MRR@3 is +0.002 [-0.016, +0.019]"
+-0.015,676,RoBERTa minus SecBERT MRR@3 +0.003 (-0.015 to +0.020),registered,NOT SUPPORTED,"NOT SUPPORTED: number differs. C4 MRR@3 interval is [-0.016, +0.019]"
++0.020,692,"RoBERTa minus SecBERT MRR@3 +0.003 [-0.015, +0.020]",UNREGISTERED,NOT SUPPORTED,"NOT SUPPORTED: number differs. C4 MRR@3 interval is [-0.016, +0.019]"
+0.0007,697,changes every P@1 by at most 0.0007,registered,SUPPORTED,"SUPPORTED by G3.secbert.delta, G12.exact_near.maxdelta"
+0.004,697,counting the unseen labels also lowers the micro-F1 by about 0.004,registered,SUPPORTED,"SUPPORTED by B2.p1_seedmean, ABL.A2, G2.roberta.micro_drop, G2.secbert.micro_drop"
+0.8028,705,Fusion P@1 0.8028 -> 0.8022 [overlap sensitivity table],registered,SUPPORTED,"SUPPORTED by B13a, ABL.full, G12.p1.fusion"
+0.8022,706,Fusion P@1 0.8028 -> 0.8022 [overlap sensitivity table],registered,SUPPORTED,SUPPORTED by G12.p1.fusion
+0.7559,709,RoBERTa P@1 0.7559 -> 0.7552,registered,SUPPORTED,"SUPPORTED by B7, B10b, G12.p1.roberta"
+0.7552,710,RoBERTa P@1 0.7559 -> 0.7552,registered,SUPPORTED,SUPPORTED by G12.p1.roberta
+0.7545,713,SecBERT P@1 0.7545 -> 0.7538,registered,SUPPORTED,"SUPPORTED by B8, G12.p1.secbert"
+0.7538,714,SecBERT P@1 0.7545 -> 0.7538,registered,SUPPORTED,SUPPORTED by G12.p1.secbert
+0.7421,717,SVM P@1 0.7421 -> 0.7414,registered,SUPPORTED,"SUPPORTED by B6, B9, ABL.no_matcher, G12.p1.svm"
+0.7414,718,SVM P@1 0.7421 -> 0.7414,registered,SUPPORTED,SUPPORTED by G12.p1.svm
+0.7766,721,Matcher ensemble P@1 0.7766 -> 0.7759,registered,SUPPORTED,"SUPPORTED by B10c, G12.p1.matcher"
+0.7759,722,Matcher ensemble P@1 0.7766 -> 0.7759,registered,SUPPORTED,SUPPORTED by G12.p1.matcher
+10,731,Count 10 unseen gold pairs,registered,SUPPORTED,"SUPPORTED by A5, A5.unseen, E2, E2.all, E5.comp_logit, E5.suff_logit ..."
+0.701,734,micro-F1 RoBERTa 0.705 -> 0.701 [unseen counted as misses],registered,SUPPORTED,"SUPPORTED by B1.all, G2.roberta.micro.seen_test, G2.roberta.micro.all_test"
+0.699,738,micro-F1 SecBERT 0.703 -> 0.699 [unseen counted as misses],registered,SUPPORTED,"SUPPORTED by B2.all, G2.secbert.micro.seen_test, G2.secbert.micro.all_test, G4.roberta.20_49"
+0.750,741,fusion improves on the matcher for common labels (P@1 from 0.750 to 0.819 for labels with 20 to 49 training sentences,registered,SUPPORTED,"SUPPORTED by B11.avg, G3.secbert.thr_old, G3.secbert.thr_new, G4.matcher.20_49"
+0.819,741,P@1 from 0.750 to 0.819 for labels with 20 to 49 training sentences,registered,SUPPORTED,"SUPPORTED by ABL.no_secbert, G4.fusion.20_49"
+49,741,labels with 20 to 49 training sentences,registered,SUPPORTED,SUPPORTED by D7.raterA_2
+0.862,741,and from 0.862 to 0.897 for 50 or more,registered,SUPPORTED,SUPPORTED by G4.matcher.50plus
+0.897,741,and from 0.862 to 0.897 for 50 or more,registered,SUPPORTED,"SUPPORTED by G4.matcher.50plus, G4.fusion.50plus"
+50,741,0.862 to 0.897 for 50 or more,registered,SETTING,SETTING: bucket boundary
+0.559,741,worse for rare ones (from 0.559 to 0.294 for 1 to 4 training sentences),registered,SUPPORTED,SUPPORTED by G4.matcher.1_4
+0.294,741,worse for rare ones (from 0.559 to 0.294 for 1 to 4 training sentences),registered,SUPPORTED,"SUPPORTED by G4.roberta.1_4, G4.fusion.1_4"
+0.0,741,unseen labels at rank five from 0.0 to 0.5 only [confirm the reference system for 0.0],registered,SUPPORTED,"SUPPORTED by A6, A6.exact_dev, B1, B1.all, B1.p1_seedmean, B2 ..."
+0.5,741,unseen labels at rank five from 0.0 to 0.5 only,registered,SUPPORTED,"SUPPORTED by B3.macro117, B3.macro127, B3.thr, B4, B4.127, B5 ..."
+0.200,749,"Unseen (0): n 10, Matcher P@1 0.200, Fusion P@1 0.000",registered,SUPPORTED,"SUPPORTED by G4.matcher.unseen, G5.matcher.unseen"
+0.000,750,"Unseen (0): n 10, Matcher P@1 0.200, Fusion P@1 0.000",registered,SUPPORTED,"SUPPORTED by A6, A6.exact_dev, C1.p, C1.holm, ABL.A1.p, ABL.A1.holm ..."
+19,755,bucket 5-19,registered,SUPPORTED,SUPPORTED by G11.roberta
+96,756,bucket 5-19: n = 96,registered,SUPPORTED,SUPPORTED by G4.n.5_19
+216,760,bucket 20-49: n = 216,registered,SUPPORTED,SUPPORTED by G4.n.20_49
+369,764,bucket 50 or more: n = 369,registered,SUPPORTED,SUPPORTED by G4.n.50plus
+10.19,769,[confirm the definition of the 10.19 difference and the eligibility rule behind 93],registered,SUPPORTED,SUPPORTED by E2
+645,769,Repeated on all 645 eligible test sentences,registered,SUPPORTED,SUPPORTED by E3.all
+10.13,769,the deletion test gives 10.13 logits with the expected direction in 644 of 645,registered,SUPPORTED,SUPPORTED by E2.all
+644,769,expected direction in 644 of 645,registered,SUPPORTED,SUPPORTED by E3.all
+-0.057,771,Krippendorff's alpha is -0.057 on the nominal scale and 0.031 on the ordinal scale,registered,SUPPORTED,SUPPORTED by D1
+0.031,771,0.031 on the ordinal scale,registered,SUPPORTED,SUPPORTED by D2
+-0.062,771,Fleiss' kappa is -0.062 and Cohen's kappa 0.062,registered,SUPPORTED,"SUPPORTED by D3, D4, G5.matcher.50plus"
+0.062,771,Cohen's kappa 0.062,registered,SUPPORTED,"SUPPORTED by D3, D4, G5.matcher.50plus"
+83%,771,Rater B judged 83% of the explanations to make sense,registered,SUPPORTED,"SUPPORTED by B13a, B13b, ABL.full, ABL.no_svm, E5.ins_auc.shap, G3.roberta.thr_new ..."
+0.009,790,the micro-F1 values differ by 0.009,registered,SUPPORTED,"SUPPORTED by ABL.A2.mrr, G5.clsonly.20_49, B1.minus_svm"
+0.03,790,"The gain is modest, about 0.03 in P@1 over the best control",registered,SUPPORTED,"SUPPORTED by C1, C1.mrr, C2, ABL.A1, ABL.A1.mrr, ABL.A3 ..."
+0.002,817,"equal weights give 0.779, which is only 0.002 to 0.005 above the controls (0.774 and 0.777)",registered,SUPPORTED,"SUPPORTED by B12b, C3.mrr, C4.mrr"
+0.005,817,"equal weights give 0.779, which is only 0.002 to 0.005 above the controls (0.774 and 0.777)",registered,SUPPORTED,SUPPORTED by ABL.A4.mrr
+0.856,840,"Fusion (3,1,1,1), seed-averaged: MRR@3 0.856",registered,SUPPORTED,SUPPORTED by B13b
+0.85,848,selected threshold of the RoBERTa classifier is 0.85 for all three seeds,registered,SUPPORTED,"SUPPORTED by B12b, B12nb.mrr3, G3.roberta.thr_old"
+0.736,848,positive-weight and no-weight configurations ... tied on the development set (0.736 each),registered,SUPPORTED,"SUPPORTED by H2.roberta_pw_dev, H2.roberta_nopw_dev"
+108,852,differs from that of the explained RoBERTa classifier on 108 of 725 test sentences (14.9%),registered,SUPPORTED,SUPPORTED by E4
+14.9%,852,108 of 725 test sentences (14.9%),registered,SUPPORTED,"SUPPORTED by E4, E4.share"
+0.04,859,the macro-F1 scope changes results by about 0.04,registered,SUPPORTED,"SUPPORTED by B0, C1, C2.mrr, C3, ABL.A1, ABL.A3.holm ..."

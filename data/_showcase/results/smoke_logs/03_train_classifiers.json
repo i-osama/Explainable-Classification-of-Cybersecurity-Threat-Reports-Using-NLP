@@ -1,0 +1,20 @@
+{
+ "notebook": "03_train_classifiers.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 6.7,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [
+  "SMOKE on CPU: training is GPU-only and is skipped here. Data, label space and the training function were defined without error.",
+  "smoke_note.json training_cells_skipped    1.0"
+ ],
+ "last_output_lines": [
+  "packages: {'torch': '2.15.0+cpu', 'transformers': '5.23.0', 'scikit-learn': '1.9.1', 'numpy': '2.5.4', 'pandas': '3.1.1', 'shap': '0.54.1', 'scipy': '1.18.1'}",
+  "train=3468 dev=604 test=725 labels=733 seen=180",
+  "SMOKE on CPU: training is GPU-only and is skipped here. Data, label space and the training function were defined without error.",
+  "status: SMOKE (not a result) | files in E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\03_train_classifiers: 1",
+  "           file                    key  value",
+  "smoke_note.json training_cells_skipped    1.0"
+ ],
+ "error": ""
+}

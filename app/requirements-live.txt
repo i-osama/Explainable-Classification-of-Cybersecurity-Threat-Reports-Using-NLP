@@ -1,0 +1,4 @@
+# live mode only (CPU torch is enough)
+torch
+transformers
+shap==0.54.1

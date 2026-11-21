@@ -1,0 +1,2 @@
+selected_w_rare,selected_w_mid,selected_w_frequent,dev_MRR@3,dev_P@1,dev_baseline_MRR@3,n_dev_rare,test_P@1,test_P@1_baseline,delta_P@1,ci_lo,ci_hi,p_mcnemar,test_MRR@3,test_MRR@3_baseline,rare_n,rare_P@1,rare_P@1_baseline,rare_delta,rare_ci_lo,rare_ci_hi,success_rule_met,test_evaluations
+4,4,4,0.8764,0.8278,0.8733,34,0.8082758620689655,0.8027586206896552,0.005517241379310344,0.001379310344827586,0.011034482758620689,0.125,0.8588505747126436,0.8556321839080461,44,0.29545454545454547,0.22727272727272727,0.06818181818181818,0.0,0.1590909090909091,True,1

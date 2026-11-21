@@ -1,0 +1,43 @@
+{
+ "run_id": "baselines",
+ "system": "prior+svm+zeroshot",
+ "seed": "-",
+ "config_hash": "1de5d610586ec95b",
+ "config": {
+  "smoke": false,
+  "label_max_len": 256
+ },
+ "env": {
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "in_colab": "True",
+  "smoke": "False",
+  "torch": "2.14.1+cu130",
+  "cuda": "True",
+  "gpu": "Tesla T4"
+ },
+ "input_sha256": {
+  "/content/drive/MyDrive/KDU/Thesis/Dataset/tram_test.tsv": "2f12f2cfa909f99849f78d6101dc204bd2274877b04a643d00a452af216700a4"
+ },
+ "output_sha256": {
+  "/content/drive/MyDrive/KDU/Thesis/showcase_runs/02_baselines/baselines.json": "53d074b4a91cea794e0ae25dddff948c16ed62683e7697932478fb3ca4782b65",
+  "/content/drive/MyDrive/KDU/Thesis/showcase_runs/02_baselines/zeroshot_test_scores.npy": "a0cc09bcf62176179b4de0b727c0353d21f04ff10845c7e50f34fc1c0e47fb5e"
+ },
+ "metrics": {
+  "prior_P@1": 0.05103448275862069,
+  "prior_MRR@3": 0.08459770114942528,
+  "svm_threshold": -0.44999999999999984,
+  "svm_P@1": 0.7420689655172413,
+  "svm_MRR@3": 0.8137931034482758,
+  "svm_micro_f1_notebook": 0.6961009174311926,
+  "svm_macro_f1_notebook": 0.542696713060595,
+  "svm_micro_f1_seen_test": 0.6921322690992019,
+  "svm_macro_f1_seen_test": 0.542696713060595,
+  "svm_micro_f1_all_test": 0.6921322690992019,
+  "svm_macro_f1_all_test": 0.4999646884101544,
+  "zeroshot_P@1": 0.22758620689655173,
+  "zeroshot_MRR@3": 0.3002298850574712
+ },
+ "status": "DONE",
+ "written": "2026-11-15T12:55:05"
+}

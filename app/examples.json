@@ -1,0 +1,9 @@
+{"note": "Hand-written demo sentences in the style of CTI reports. None is taken from the TRAM train, dev or test split.",
+ "examples": [
+  {"title": "Process listing", "text": "The malware runs tasklist to enumerate running processes and sends the list to its C2 server."},
+  {"title": "Credential dumping", "text": "The operators used procdump to dump the memory of lsass.exe and later extracted credentials with mimikatz."},
+  {"title": "Run key persistence", "text": "To survive reboots, the loader writes its path to the HKCU Software Microsoft Windows CurrentVersion Run registry key."},
+  {"title": "Spearphishing", "text": "Victims received an email with a malicious Word attachment that dropped the first-stage payload when macros were enabled."},
+  {"title": "Ransomware", "text": "The ransomware encrypts files on local and network drives with AES and appends a .locked extension to each file."},
+  {"title": "Data staging", "text": "Collected documents were compressed into a password-protected RAR archive in a temporary folder before exfiltration."}
+ ]}

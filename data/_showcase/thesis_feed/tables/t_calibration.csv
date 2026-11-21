@@ -1,0 +1,7 @@
+model,seed,ECE,mean_confidence,accuracy
+roberta,42,0.1685,0.9081,0.7572
+roberta,43,0.1806,0.9218,0.7434
+roberta,44,0.1683,0.9093,0.7545
+secbert,42,0.125,0.8552,0.7434
+secbert,43,0.1475,0.8778,0.7476
+secbert,44,0.1421,0.8683,0.7393

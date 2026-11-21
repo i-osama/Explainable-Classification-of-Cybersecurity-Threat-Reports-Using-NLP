@@ -1,0 +1,5 @@
+system,parameters,note,median_ms,p90_ms,timed_with,process_rss_gb_all_models_loaded
+TF-IDF + SVM,7774740,43193 n-gram features x 180 labels; 2306593 non-zero weights,17.90614999481477,19.345570002042223,refit model,1.81
+RoBERTa,124784052,one seed; the 3-seed average costs 3 forward passes,46.67964999680407,86.55573999858461,saved checkpoint seed 42,1.81
+SecBERT,83589300,one seed; the 3-seed average costs 3 forward passes,22.7300499973353,35.70679000404199,saved checkpoint seed 42,1.81
+Matcher (bge-base),109482240,sentence encoding + dot product with 733 pre-computed label vectors; label vectors are a one-off cost,47.598350000043865,83.4133600073983,PUBLIC base checkpoint (fine-tuned weights were never saved; same architecture),1.81

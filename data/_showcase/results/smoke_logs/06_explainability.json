@@ -1,0 +1,17 @@
+{
+ "notebook": "06_explainability.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 21.7,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [],
+ "last_output_lines": [
+  "manifest_fusion_shap.json              drop_robertaSHAP_top3 19.0208",
+  "manifest_fusion_shap.json                       drop_random3  4.6376",
+  "manifest_fusion_shap.json                fused_minus_roberta  1.0257",
+  "manifest_fusion_shap.json             fused_minus_roberta_lo  0.0000",
+  "manifest_fusion_shap.json             fused_minus_roberta_hi  2.0515",
+  "manifest_fusion_shap.json                   same_label_share  1.0000"
+ ],
+ "error": ""
+}

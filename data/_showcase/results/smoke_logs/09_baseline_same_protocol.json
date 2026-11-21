@@ -1,0 +1,17 @@
+{
+ "notebook": "09_baseline_same_protocol.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 6.7,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [],
+ "last_output_lines": [
+  "manifest_baseline_protocol.json                               fusion_3111_techlevel_F1@1 0.6829",
+  "manifest_baseline_protocol.json                                fusion_3111_techlevel_P@3 0.3000",
+  "manifest_baseline_protocol.json                                fusion_3111_techlevel_R@3 0.8333",
+  "manifest_baseline_protocol.json                               fusion_3111_techlevel_F1@3 0.4412",
+  "manifest_baseline_protocol.json                              fusion_3111_techlevel_MRR@3 0.7667",
+  "manifest_baseline_protocol.json      fusion_3111_techlevel_R@1_micro_as_in_our_notebooks 0.6087"
+ ],
+ "error": ""
+}

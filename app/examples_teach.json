@@ -1,0 +1,16 @@
+{
+ "title": "Ransomware blocks system recovery (T1490 Inhibit System Recovery)",
+ "note": "Hand-written for the demo, not taken from the thesis data. The test sentences use different words from the training examples.",
+ "train": [
+  "T1490: The ransomware ran vssadmin delete shadows /all /quiet to remove every volume shadow copy.",
+  "T1490: Before encrypting files, the malware disabled Windows recovery with bcdedit /set recoveryenabled no.",
+  "T1490: The attackers deleted the backup catalog with wbadmin delete catalog so the victim could not restore the system.",
+  "T1490: The loader used WMI to delete all shadow copies on the host to block system recovery."
+ ],
+ "check": [
+  "T1490: It wipes the volume shadow copies using vssadmin so that files cannot be restored.",
+  "T1490: The script turns off automatic repair through bcdedit before the payload runs.",
+  "T1490: Operators removed the Windows backup catalog using wbadmin to stop recovery.",
+  "T1490: The sample deletes each shadow copy through WMI so the system cannot be rolled back."
+ ]
+}

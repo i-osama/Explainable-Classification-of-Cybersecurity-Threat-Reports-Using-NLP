@@ -1,0 +1,17 @@
+para,token,kind,nearest_key,nearest_value,difference,likely_cause,context
+197,193,int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"the Enterprise matrix contains 14 tactics, 193 techniques and 401 sub-techniques"
+197,401,int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"the Enterprise matrix contains 14 tactics, 193 techniques and 401 sub-techniques"
+272,1.16,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"one or more technique identifiers, 1.16 on average"
+311,24.8,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),Annotation errors reported; low F1 (24.8) on external data
+313,"39,296",int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"fine-tuned on an augmented sentence-TTP set of 39,296 samples (193 TTPs)"
+314,92.42%,percent,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),High F1 (92.42%) on its augmented data; STIX export
+322,"6,612",int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"Multi-stage ranking; benchmark of 6,612 descriptions"
+323,57.83%,percent,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),P@1 57.83% on its own data; slow (about 8.9 s per query)
+323,8.9,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),slow (about 8.9 s per query)
+331,37,int>=10,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),"Cleaned set covers only 37 techniques; document-level, LLM-based"
+334,0.674,decimal,-,-,-,literature value: cite the paper (not a project number; see docs/RELATED_WORK_VERIFIED.md),extreme-classification baselines reach a P@1 of 0.674 on the same data
+502,2.5,decimal,-,-,-,setting on configs/number_whitelist.txt: no claim needed,the 95% interval is formed by the 2.5th and 97.5th percentiles
+502,97.5,decimal,-,-,-,setting on configs/number_whitelist.txt: no claim needed,the 95% interval is formed by the 2.5th and 97.5th percentiles
+676,0.037,decimal,C2.mrr,0.03609195402298851,0.00090804597701149,rounding or last-digit difference: use the registry value,fusion minus matcher ensemble MRR@3 0.019 (0.003 to 0.037 [confirm])
+676,+0.020,decimal,C4.mrr,0.019310344827586208,0.000689655172413792,rounding or last-digit difference: use the registry value,RoBERTa minus SVM +0.002 in MRR@3 (-0.018 to +0.020)
+692,+0.020,decimal,C4.mrr,0.019310344827586208,0.000689655172413792,rounding or last-digit difference: use the registry value,"RoBERTa minus SecBERT MRR@3 +0.003 [-0.015, +0.020]"

@@ -1,0 +1,13 @@
+{
+  // Open with: File > Open Workspace from File... > this file.  Local runs use the project .venv; Colab runs use the Colab extension.
+  "folders": [{ "path": ".", "name": "showcase" }],
+  "settings": {
+    "python.defaultInterpreterPath": "E:\\Osamas Paper\\.venv\\Scripts\\python.exe",
+    "jupyter.notebookFileRoot": "${workspaceFolder}/notebooks",
+    "files.exclude": { "**/__pycache__": true, "results/smoke_runs": true, "drive_upload": true },
+    "search.exclude": { "results/tables": true, "figures/*.svg": true, "report": true }
+  },
+  "extensions": {
+    "recommendations": ["google.colab", "ms-toolsai.jupyter", "ms-python.python"]
+  }
+}

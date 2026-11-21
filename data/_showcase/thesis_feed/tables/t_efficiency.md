@@ -1,0 +1,6 @@
+| system | parameters | note | median_ms | p90_ms | timed_with | process_rss_gb_all_models_loaded |
+|---|---|---|---|---|---|---|
+| TF-IDF + SVM | 7774740 | 43193 n-gram features x 180 labels; 2306593 non-zero weights | 17.9061 | 19.3456 | refit model | 1.81 |
+| RoBERTa | 124784052 | one seed; the 3-seed average costs 3 forward passes | 46.6796 | 86.5557 | saved checkpoint seed 42 | 1.81 |
+| SecBERT | 83589300 | one seed; the 3-seed average costs 3 forward passes | 22.73 | 35.7068 | saved checkpoint seed 42 | 1.81 |
+| Matcher (bge-base) | 109482240 | sentence encoding + dot product with 733 pre-computed label vectors; label vectors are a one-off cost | 47.5984 | 83.4134 | PUBLIC base checkpoint (fine-tuned weights were never saved; same architecture) | 1.81 |

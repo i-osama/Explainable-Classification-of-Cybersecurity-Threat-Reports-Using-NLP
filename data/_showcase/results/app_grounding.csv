@@ -1,0 +1,2 @@
+n,passed,failed,llm_unavailable,seconds_median,seconds_mean,rows,rule,model,pass_rate,cause: quoted word not in top-5 SHAP words,cause: passed
+100,23,77,0,7.55,7.703999999999999,"first 100 rows with stored SHAP, row order",grounding rule v1 (ttp_app/explain.py),"qwen2.5:7b, temperature 0, seed 0",0.23,77,23

@@ -1,0 +1,14 @@
+para,region,placeholder
+3,front,[Author full name]
+9,front,[Author full name]
+40,front,[Author full name]
+41,front,[Student ID]
+46,front,[supervisor’s name]
+188,front,[Author full name]
+337,body,[Extend this section with the additional references recommended by the supervisor; the review above covers the closest systems found in this project but is not exhaustive.]
+357,body,"[author: state why (3, 1, 1, 1) was kept]"
+530,body,[confirm that the repository contains no dataset text]
+530,body,[state the use of AI tools exactly as required by the university policy]
+769,body,"[Insert Figure: example SHAP token attributions for two or three test sentences, from the Exp_3_0_shap outputs.]"
+931,appendix,[Add the final annotation guideline once the study is repeated.]
+933,appendix,[repository URL]

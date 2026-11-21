@@ -1,0 +1,14 @@
+| bucket | n | reference | fixed | broken | delta_P@1 | ci_lo | ci_hi |
+|---|---|---|---|---|---|---|---|
+| unseen | 10 | Matcher (3-seed ens.) | 0 | 2 | -0.2 | -0.5 | 0.0 |
+| unseen | 10 | Classifiers-only ens. | 0 | 0 | 0.0 | 0.0 | 0.0 |
+| 1-4 | 34 | Matcher (3-seed ens.) | 1 | 10 | -0.2647 | -0.4412 | -0.0882 |
+| 1-4 | 34 | Classifiers-only ens. | 4 | 0 | 0.1176 | 0.0294 | 0.2353 |
+| 5-9 | 30 | Matcher (3-seed ens.) | 2 | 3 | -0.0333 | -0.1667 | 0.1 |
+| 5-9 | 30 | Classifiers-only ens. | 3 | 0 | 0.1 | 0.0 | 0.2008 |
+| 10-19 | 66 | Matcher (3-seed ens.) | 6 | 3 | 0.0455 | -0.0455 | 0.1364 |
+| 10-19 | 66 | Classifiers-only ens. | 3 | 0 | 0.0455 | 0.0 | 0.1061 |
+| 20-49 | 216 | Matcher (3-seed ens.) | 23 | 8 | 0.0694 | 0.0185 | 0.1204 |
+| 20-49 | 216 | Classifiers-only ens. | 8 | 1 | 0.0324 | 0.0093 | 0.0602 |
+| 50+ | 369 | Matcher (3-seed ens.) | 19 | 6 | 0.0352 | 0.0108 | 0.0623 |
+| 50+ | 369 | Classifiers-only ens. | 5 | 1 | 0.0108 | 0.0 | 0.0244 |

@@ -1,0 +1,10 @@
+# UNTESTED template (never run). Copy to .pre-commit-config.yaml at the repository root.
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9          # pin checked by the author before use
+    hooks:
+      - id: ruff
+        args: [--line-length, "200"]
+        files: ^_showcase/src/
+      - id: ruff-format
+        files: ^_showcase/src/

@@ -1,0 +1,132 @@
+{
+ "measured": "2026-11-15 13:47",
+ "how": "live.analyse() wall clock, perf_counter, CPU, batch 64",
+ "rows": [
+  {
+   "sentence": "short",
+   "words": 7,
+   "n_perm": 10,
+   "wall_s": 2.4,
+   "shap_s": 1.9,
+   "ms_batch1": {
+    "svm": 19,
+    "roberta_s42": 88,
+    "secbert_s42": 18
+   },
+   "additivity_error": 4.324789415477426e-10,
+   "top1": "T1057 Process Discovery",
+   "set_size": 1,
+   "tier": 0,
+   "top3_words": [
+    "processes",
+    "running",
+    "tasklist."
+   ]
+  },
+  {
+   "sentence": "short",
+   "words": 7,
+   "n_perm": 40,
+   "wall_s": 8.4,
+   "shap_s": 8.3,
+   "ms_batch1": {
+    "svm": 24,
+    "roberta_s42": 37,
+    "secbert_s42": 15
+   },
+   "additivity_error": 4.324860469751002e-10,
+   "top1": "T1057 Process Discovery",
+   "set_size": 1,
+   "tier": 0,
+   "top3_words": [
+    "processes",
+    "running",
+    "enumerates"
+   ]
+  },
+  {
+   "sentence": "medium",
+   "words": 26,
+   "n_perm": 10,
+   "wall_s": 17.4,
+   "shap_s": 17.3,
+   "ms_batch1": {
+    "svm": 25,
+    "roberta_s42": 66,
+    "secbert_s42": 29
+   },
+   "additivity_error": 5.337934965155e-07,
+   "top1": "T1003 OS Credential Dumping",
+   "set_size": 4,
+   "tier": 1,
+   "top3_words": [
+    "credentials",
+    "dumped",
+    "procdump"
+   ]
+  },
+  {
+   "sentence": "medium",
+   "words": 26,
+   "n_perm": 40,
+   "wall_s": 67.0,
+   "shap_s": 66.9,
+   "ms_batch1": {
+    "svm": 24,
+    "roberta_s42": 48,
+    "secbert_s42": 25
+   },
+   "additivity_error": 5.337934965155e-07,
+   "top1": "T1003 OS Credential Dumping",
+   "set_size": 4,
+   "tier": 1,
+   "top3_words": [
+    "credentials",
+    "dumped",
+    "procdump"
+   ]
+  },
+  {
+   "sentence": "long",
+   "words": 54,
+   "n_perm": 10,
+   "wall_s": 76.9,
+   "shap_s": 76.8,
+   "ms_batch1": {
+    "svm": 25,
+    "roberta_s42": 75,
+    "secbert_s42": 33
+   },
+   "additivity_error": 5.707521886222366e-07,
+   "top1": "T1486 Data Encrypted for Impact",
+   "set_size": 6,
+   "tier": 1,
+   "top3_words": [
+    "password-protected",
+    "archive",
+    "decrypts"
+   ]
+  },
+  {
+   "sentence": "long",
+   "words": 54,
+   "n_perm": 40,
+   "wall_s": 300.3,
+   "shap_s": 300.2,
+   "ms_batch1": {
+    "svm": 30,
+    "roberta_s42": 82,
+    "secbert_s42": 38
+   },
+   "additivity_error": 5.707521921749503e-07,
+   "top1": "T1486 Data Encrypted for Impact",
+   "set_size": 6,
+   "tier": 1,
+   "top3_words": [
+    "password-protected",
+    "archive",
+    "archive,"
+   ]
+  }
+ ]
+}

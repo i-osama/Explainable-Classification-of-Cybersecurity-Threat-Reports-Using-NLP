@@ -1,0 +1,48 @@
+# Honest status board. Edited by hand only for state changes; rendered into report\index.html and README.md.
+# state: DONE | PARTIAL | TODO-COLAB | TODO-AUTHOR | NOT-FOUND | NEGATIVE-RESULT
+updated: "2026-11-16"
+items:
+  - {id: S01, area: Data, item: "Split sizes, label counts, overlap, truncation", state: DONE, evidence: "_evidence_pack/01_dataset.md"}
+  - {id: S02, area: Data, item: "Data licence: HF card field is 'cc' with no variant (verified); upstream TRAM repo Apache-2.0; ATT&CK version string in data still absent", state: PARTIAL, evidence: "docs/DATA_CARD.md, LICENSE-NOTE.md"}
+  - {id: S03, area: Results, item: "All headline numbers recomputed from saved predictions", state: DONE, evidence: "scripts/verify_claims.py"}
+  - {id: S04, area: Results, item: "Fusion headline definition: author chose B13a (seed-averaged, 0.803 with CI) on 15 Nov; B12a (seed-paired mean +/- sd) reported beside it", state: DONE, evidence: "DECISIONS.md D24"}
+  - {id: S05, area: Baselines, item: "Frequency prior, TF-IDF SVM, zero-shot bge", state: DONE, evidence: "results/systems.csv"}
+  - {id: S06, area: Baselines, item: "Published baseline on the same protocol", state: TODO-COLAB, evidence: "notebooks/09_baseline_same_protocol.ipynb"}
+  - {id: S07, area: Baselines, item: "LLM baseline: open-weights qwen2.5:7b, 3 variants (prereg 17): no variant beats the matcher (D26); API model optional", state: NEGATIVE-RESULT, evidence: "results/llm_baseline.csv, llm_family.csv; notebooks/10 for an API model"}
+  - {id: S08, area: Analysis, item: "Ablation, weight sensitivity, threshold grid, F1 variants", state: DONE, evidence: "results/ablation.csv, weight_surface.csv, threshold_grid.csv, f1_variants.csv"}
+  - {id: S09, area: Analysis, item: "Error analysis by support, tactic, confusion", state: DONE, evidence: "results/support_buckets.csv"}
+  - {id: S10, area: Analysis, item: "Fusion does not help unseen and rare labels", state: NEGATIVE-RESULT, evidence: "results/support_buckets.csv"}
+  - {id: S11, area: Statistics, item: "Paired bootstrap, exact McNemar, Holm correction", state: DONE, evidence: "results/comparisons.csv"}
+  - {id: S12, area: Statistics, item: "Transformers vs SVM: no supported difference", state: NEGATIVE-RESULT, evidence: "results/comparisons.csv"}
+  - {id: S13, area: Explainability, item: "Word-level SHAP for one RoBERTa seed, all test sentences", state: DONE, evidence: "_evidence_pack/06_shap.md"}
+  - {id: S14, area: Explainability, item: "Faithfulness: deletion, insertion, comprehensiveness, sufficiency", state: DONE, evidence: "results/faithfulness.csv"}
+  - {id: S15, area: Explainability, item: "SHAP of the full fusion, seed 42, 100 sentences (notebook 06 on Kaggle T4, 16 Nov)", state: DONE, evidence: "results/colab/manifest_fusion_shap.json"}
+  - {id: S16, area: Human study, item: "First plausibility study: agreement at chance", state: NEGATIVE-RESULT, evidence: "_evidence_pack/07_human.md"}
+  - {id: S17, area: Human study, item: "Second study with protocol, 3+ raters", state: TODO-AUTHOR, evidence: "docs/HUMAN_STUDY_PROTOCOL.md"}
+  - {id: S18, area: Efficiency, item: "Parameters and CPU latency", state: DONE, evidence: "results/efficiency.csv"}
+  - {id: S19, area: Robustness, item: "Extra seeds 45-46", state: TODO-COLAB, evidence: "notebooks/03, notebooks/04"}
+  - {id: S20, area: Extension, item: "Support-aware fusion (two pre-registered variants, run locally): no supported gain", state: NEGATIVE-RESULT, evidence: "results/support_aware_v2.csv, support_aware_family.csv"}
+  - {id: S27, area: Statistics, item: "Fusion vs matcher ensemble does not survive Holm correction", state: NEGATIVE-RESULT, evidence: "results/comparisons.csv"}
+  - {id: S28, area: Reproducibility, item: "Number audit of Thesis_Draft_v2.2.docx against thesis_numbers.json (D30): unregistered numbers are literature values and settings; 13 of 18 confidence intervals in the draft are still the 1,000-resample values (C3, C4, C2/C3/C4 MRR@3) although the draft states 10,000; '23 tokens' (p370) not reproduced by the data", state: DONE, evidence: "AUDIT_TODO.md, results/number_audit_v2_2/intervals.csv, audit_report.md"}
+  - {id: S29, area: Explainability, item: "256 tokens at inference on truncated sentences: no gain (training at 256 not tested)", state: NEGATIVE-RESULT, evidence: "results/maxlen.csv"}
+  - {id: S21, area: Extension, item: "Objective (b): sibling datasets -> TRAM test (SVM done locally: siblings hurt; transformers on Colab)", state: PARTIAL, evidence: "results/cross_dataset_svm.csv; notebooks/08"}
+  - {id: S22, area: Reproducibility, item: "Package, tests, hashes, run order", state: DONE, evidence: "INVIGILATOR_GUIDE.md"}
+  - {id: S23, area: Reproducibility, item: "Colab environment capture", state: TODO-COLAB, evidence: "notebooks/00"}
+  - {id: S24, area: Reproducibility, item: "Matcher weights: seed 42 retrained and saved (notebook 04 on Kaggle T4, 16 Nov); seeds 43-44 not retrained", state: PARTIAL, evidence: "results/colab/manifest_matcher_ft20_s42.json"}
+  - {id: S25, area: Release, item: "Git repository, licence choice, author metadata", state: TODO-AUTHOR, evidence: "LICENSE-NOTE.md, CITATION.cff"}
+  - {id: S26, area: Related work, item: "Reference verification: 20 core VERIFIED, 2 PARTLY (one number each), 10 of 11 method references VERIFIED (Holm on JSTOR)", state: PARTIAL, evidence: "docs/RELATED_WORK_VERIFIED.md"}
+  - {id: S30, area: Explainability, item: "Plain-language matcher/fusion explainer, 8 errors corrected, every number registered", state: DONE, evidence: "thesis_feed/EXPLAINER_MATCHER_FUSION.md"}
+  - {id: S31, area: Robustness, item: "Robustness and shortcut test, 5 pre-registered perturbations: ensemble robust, no measurable group-name dependence", state: DONE, evidence: "results/robustness.csv, robustness_family.csv (prereg 14)"}
+  - {id: S32, area: Extension, item: "Learned (stacked) fusion does not beat (3,1,1,1)", state: NEGATIVE-RESULT, evidence: "results/stacking.csv (prereg 15)"}
+  - {id: S33, area: Statistics, item: "Minimum detectable effect per comparison (power 0.8)", state: DONE, evidence: "results/power_mde.csv"}
+  - {id: S34, area: Reproducibility, item: "Hash-checked ingest of Colab outputs", state: DONE, evidence: "scripts/ingest_colab.py, tests/test_ingest.py"}
+  - {id: S35, area: Release, item: "Article brief and claude.ai project instructions generated from the registry", state: DONE, evidence: "thesis_feed/Q1_MANUSCRIPT_BRIEF.md, WEB_CLAUDE_PROMPT.md"}
+  - {id: S36, area: Robustness, item: "Robustness of the full fusion (needs the retrained matcher weights)", state: TODO-COLAB, evidence: "notebooks/04 then scripts/run_robustness.py"}
+  - {id: S37, area: Uncertainty, item: "Split-conformal candidate sets (prereg 18): fusion meets nominal coverage with the smallest sets; post-hoc raw-score variant for classifiers (D27)", state: DONE, evidence: "results/conformal.csv, conformal_family.csv, conformal_buckets.csv, conformal_posthoc_raw.csv"}
+  - {id: S38, area: Uncertainty, item: "Abstention for analyst triage (prereg 19): fusion has the lowest AURC; margin vs matcher small", state: DONE, evidence: "results/selective.csv, selective_family.csv, risk_coverage.csv"}
+  - {id: S39, area: Data, item: "Label-noise candidates (prereg 20, EXPLORATORY); human check of the review sheet pending", state: TODO-AUTHOR, evidence: "results/label_noise_candidates.csv, label_noise_summary.csv; human_study/materials_local/label_noise_review.xlsx"}
+  - {id: S40, area: Data, item: "ATT&CK version drift v12.1 to current release (prereg 21); description similarity fixed to autojunk off (D28)", state: DONE, evidence: "results/attack_drift.csv, attack_drift_ids.csv, attack_version.csv"}
+  - {id: S41, area: Release, item: "REFORMS reporting checklist (32 items) with evidence and open holes", state: DONE, evidence: "docs/REFORMS_CHECKLIST.md"}
+  - {id: S42, area: Related work, item: "2026 refresh: 3 new TTP-mapping papers and 6 method references verified", state: DONE, evidence: "docs/RELATED_WORK_VERIFIED.md section F"}
+  - {id: S43, area: Release, item: "Explainer app (objective c, ..\ttp_app): replay reproduces all registered checks after the triage-threshold fix (D29); live mode timed; grounding of LLM explanations measured; AI assistance disclosed in its README", state: DONE, evidence: "results/app_verify.csv, app_live_timing.csv, app_grounding.csv; ttp_app/README.md"}
+  - {id: S44, area: Release, item: "Design-science framing (D31): system chapter (requirements, architecture, verification), demo guide with screenshots, double-click launcher, usability study kit (SUS); the usability study itself is the author's task (T9.usability_sus)", state: PARTIAL, evidence: "thesis_feed/ch4b_system_design.md; ttp_app/docs/DEMO_GUIDE.md; ttp_app/usability/"}

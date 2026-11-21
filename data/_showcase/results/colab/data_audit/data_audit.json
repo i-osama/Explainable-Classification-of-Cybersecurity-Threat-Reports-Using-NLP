@@ -1,0 +1,21 @@
+{
+ "metrics": {
+  "n_train": 3468,
+  "n_dev": 604,
+  "n_test": 725,
+  "train_labels": 180,
+  "test_labels": 127,
+  "test_labels_seen": 117,
+  "test_labels_unseen": 10,
+  "exact_overlap_train_test": 1,
+  "exact_overlap_train_dev": 0,
+  "exact_overlap_dev_test": 0,
+  "multi_label_test": 90,
+  "gold_pairs_test": 851,
+  "labels_in_space": 733,
+  "test_over_128_roberta": 34,
+  "test_mean_tokens_roberta": 35.41655172413793,
+  "test_over_128_secbert": 24,
+  "test_mean_tokens_secbert": 31.470344827586207
+ }
+}

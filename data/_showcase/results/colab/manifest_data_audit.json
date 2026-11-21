@@ -1,0 +1,46 @@
+{
+ "run_id": "data_audit",
+ "system": "data",
+ "seed": "-",
+ "config_hash": "b348b38bb2c78d2a",
+ "config": {
+  "smoke": false
+ },
+ "env": {
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "in_colab": "True",
+  "smoke": "False",
+  "torch": "2.14.1+cpu",
+  "cuda": "False",
+  "gpu": "none"
+ },
+ "input_sha256": {
+  "/content/drive/MyDrive/KDU/Thesis/Dataset/tram_test.tsv": "2f12f2cfa909f99849f78d6101dc204bd2274877b04a643d00a452af216700a4",
+  "/content/drive/MyDrive/KDU/Thesis/Dataset/tram_dev.tsv": "5145cb16221d573adad13ee78cce9aa4c3d840933cf306c5b726e23acfe535ac"
+ },
+ "output_sha256": {
+  "/content/drive/MyDrive/KDU/Thesis/showcase_runs/01_data_audit/data_audit.json": "db7fa23ce15b06da341e36f61a6e030203f8f30adddc07b37dc623931fd53968"
+ },
+ "metrics": {
+  "n_train": 3468.0,
+  "n_dev": 604.0,
+  "n_test": 725.0,
+  "train_labels": 180.0,
+  "test_labels": 127.0,
+  "test_labels_seen": 117.0,
+  "test_labels_unseen": 10.0,
+  "exact_overlap_train_test": 1.0,
+  "exact_overlap_train_dev": 0.0,
+  "exact_overlap_dev_test": 0.0,
+  "multi_label_test": 90.0,
+  "gold_pairs_test": 851.0,
+  "labels_in_space": 733.0,
+  "test_over_128_roberta": 34.0,
+  "test_mean_tokens_roberta": 35.41655172413793,
+  "test_over_128_secbert": 24.0,
+  "test_mean_tokens_secbert": 31.470344827586207
+ },
+ "status": "DONE",
+ "written": "2026-11-15T13:59:23"
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the thesis. Fields marked [FILL] must be completed by the author."
+title: "Explainable Classification of Cybersecurity Threat Reports Using Natural Language Processing: Sentence-Level Mapping to MITRE ATT&CK Techniques"
+type: software
+authors:
+  - family-names: "[FILL]"
+    given-names: "[FILL]"
+date-released: "2026-11-14"
+repository-code: "[FILL: public repository URL, if the code is published]"
+license: "[FILL]"

@@ -1,0 +1,27 @@
+| system | relation | errors | total_errors | share |
+|---|---|---|---|---|
+| TF-IDF + SVM | predicted the parent | 1.0 | 187 | 0.0053 |
+| TF-IDF + SVM | predicted a sub-technique | 3.0 | 187 | 0.016 |
+| TF-IDF + SVM | sibling sub-technique | 3.0 | 187 | 0.016 |
+| TF-IDF + SVM | other technique | 180.0 | 187 | 0.9626 |
+| TF-IDF + SVM | technique-level P@1 (parent match counts) | nan | 187 | 0.7517 |
+| RoBERTa (3-seed avg) | predicted the parent | 0.0 | 177 | 0.0 |
+| RoBERTa (3-seed avg) | predicted a sub-technique | 2.0 | 177 | 0.0113 |
+| RoBERTa (3-seed avg) | sibling sub-technique | 3.0 | 177 | 0.0169 |
+| RoBERTa (3-seed avg) | other technique | 172.0 | 177 | 0.9718 |
+| RoBERTa (3-seed avg) | technique-level P@1 (parent match counts) | nan | 177 | 0.7628 |
+| SecBERT (3-seed avg) | predicted the parent | 1.0 | 178 | 0.0056 |
+| SecBERT (3-seed avg) | predicted a sub-technique | 2.0 | 178 | 0.0112 |
+| SecBERT (3-seed avg) | sibling sub-technique | 2.0 | 178 | 0.0112 |
+| SecBERT (3-seed avg) | other technique | 173.0 | 178 | 0.9719 |
+| SecBERT (3-seed avg) | technique-level P@1 (parent match counts) | nan | 178 | 0.7614 |
+| Matcher (3-seed ens.) | predicted the parent | 2.0 | 162 | 0.0123 |
+| Matcher (3-seed ens.) | predicted a sub-technique | 1.0 | 162 | 0.0062 |
+| Matcher (3-seed ens.) | sibling sub-technique | 2.0 | 162 | 0.0123 |
+| Matcher (3-seed ens.) | other technique | 157.0 | 162 | 0.9691 |
+| Matcher (3-seed ens.) | technique-level P@1 (parent match counts) | nan | 162 | 0.7834 |
+| Fusion (3,1,1,1) | predicted the parent | 0.0 | 143 | 0.0 |
+| Fusion (3,1,1,1) | predicted a sub-technique | 2.0 | 143 | 0.014 |
+| Fusion (3,1,1,1) | sibling sub-technique | 2.0 | 143 | 0.014 |
+| Fusion (3,1,1,1) | other technique | 139.0 | 143 | 0.972 |
+| Fusion (3,1,1,1) | technique-level P@1 (parent match counts) | nan | 143 | 0.8083 |

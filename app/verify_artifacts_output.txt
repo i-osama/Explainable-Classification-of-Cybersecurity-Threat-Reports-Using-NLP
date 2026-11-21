@@ -1,0 +1,18 @@
+PASS  P@1 fusion (3,1,1,1), seed-averaged              app     0.8028  thesis     0.8028
+PASS  conformal tau, alpha 0.1                         app    14.8323  thesis    14.8323
+PASS  conformal coverage_all, alpha 0.1                app     0.8938  thesis     0.8938
+PASS  conformal mean set size, alpha 0.1               app     2.8041  thesis     2.8041
+PASS  conformal tau, alpha 0.2                         app    26.1825  thesis    26.1825
+PASS  conformal coverage_all, alpha 0.2                app     0.8000  thesis     0.8000
+PASS  conformal mean set size, alpha 0.2               app     1.3697  thesis     1.3697
+PASS  triage coverage at target 0.5                    app     0.4552  thesis     0.4552
+PASS  triage selective P@1 at target 0.5               app     0.9636  thesis     0.9636
+PASS  triage coverage at target 0.8                    app     0.8124  thesis     0.8124
+PASS  triage selective P@1 at target 0.8               app     0.8523  thesis     0.8523
+PASS  triage coverage at target 0.9                    app     0.9145  thesis     0.9145
+PASS  triage selective P@1 at target 0.9               app     0.8265  thesis     0.8265
+PASS  stored SHAP records                              app   725.0000  thesis   725.0000
+PASS  SHAP label differs from fusion top-1 (E4)        app   108.0000  thesis   108.0000
+PASS  SHAP value count != word count (must be 0)       app     0.0000  thesis     0.0000
+
+16/16 match

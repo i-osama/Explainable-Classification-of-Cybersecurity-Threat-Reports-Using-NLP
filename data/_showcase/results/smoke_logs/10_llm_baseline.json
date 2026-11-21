@@ -1,0 +1,17 @@
+{
+ "notebook": "10_llm_baseline.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 4.7,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [],
+ "last_output_lines": [
+  "train=3468 dev=604 test=725 labels=733 seen=180",
+  "parser and scorer OK; prompt length for one sentence: 2778 characters",
+  "status: SMOKE (not a result) | files in E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\10_llm_baseline: 1",
+  "                   file                    key  value",
+  "llm_protocol_check.json                run_llm    0.0",
+  "llm_protocol_check.json parser_selftest_passed    1.0"
+ ],
+ "error": ""
+}

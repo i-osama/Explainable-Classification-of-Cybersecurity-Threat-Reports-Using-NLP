@@ -1,0 +1,13 @@
+bucket,reference,n,fixed,broken
+unseen (0),Matcher,10,0,2
+unseen (0),Classifiers-only,10,0,0
+1-4,Matcher,34,1,10
+1-4,Classifiers-only,34,4,0
+5-9,Matcher,30,2,3
+5-9,Classifiers-only,30,3,0
+10-19,Matcher,66,6,3
+10-19,Classifiers-only,66,3,0
+20-49,Matcher,216,23,8
+20-49,Classifiers-only,216,8,1
+50+,Matcher,369,19,6
+50+,Classifiers-only,369,5,1

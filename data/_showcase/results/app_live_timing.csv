@@ -1,0 +1,7 @@
+sentence,words,n_perm,wall_s,shap_s,additivity_error,set_size,tier,error,ms_svm,ms_roberta_s42,ms_secbert_s42,measured,how
+short,7,10,2.4,1.9,4.324789415477426e-10,1,0,,19,88,18,2026-11-15 13:47,"live.analyse() wall clock, perf_counter, CPU, batch 64"
+short,7,40,8.4,8.3,4.324860469751002e-10,1,0,,24,37,15,2026-11-15 13:47,"live.analyse() wall clock, perf_counter, CPU, batch 64"
+medium,26,10,17.4,17.3,5.337934965155e-07,4,1,,25,66,29,2026-11-15 13:47,"live.analyse() wall clock, perf_counter, CPU, batch 64"
+medium,26,40,67.0,66.9,5.337934965155e-07,4,1,,24,48,25,2026-11-15 13:47,"live.analyse() wall clock, perf_counter, CPU, batch 64"
+long,54,10,76.9,76.8,5.707521886222366e-07,6,1,,25,75,33,2026-11-15 13:47,"live.analyse() wall clock, perf_counter, CPU, batch 64"
+long,54,40,300.3,300.2,5.707521921749503e-07,6,1,,30,82,38,2026-11-15 13:47,"live.analyse() wall clock, perf_counter, CPU, batch 64"

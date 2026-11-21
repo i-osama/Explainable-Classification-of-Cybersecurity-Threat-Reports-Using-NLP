@@ -1,0 +1,17 @@
+{
+ "notebook": "07_extension_support_aware_fusion.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 8.8,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [],
+ "last_output_lines": [
+  "         support_aware.json p_mcnemar_vs_equal  0.0002",
+  "         support_aware.json     rare_P@1_equal  0.1591",
+  "         support_aware.json     p_holm_vs_3111  0.6250",
+  "         support_aware.json     p_holm_vs_4111  0.0625",
+  "         support_aware.json    p_holm_vs_equal  0.0007",
+  "         support_aware.json   success_rule_met  0.0000"
+ ],
+ "error": ""
+}

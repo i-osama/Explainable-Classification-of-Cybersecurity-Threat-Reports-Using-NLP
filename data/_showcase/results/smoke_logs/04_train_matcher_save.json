@@ -1,0 +1,17 @@
+{
+ "notebook": "04_train_matcher_save.ipynb",
+ "mode": "local CPU smoke run, SMOKE=True; NOT a Colab run",
+ "status": "PASS",
+ "seconds": 30.6,
+ "nbformat_valid": true,
+ "gpu_only_cells_skipped": [],
+ "last_output_lines": [
+  "  epoch  1: loss=0.9596 dev P@1=0.3750 MRR@3=0.3750 (19s)",
+  "status: SMOKE (not a result) | files in E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\04_train_matcher_save: 2",
+  "                       file   key  value",
+  "manifest_smoke_matcher.json   P@1  0.625",
+  "manifest_smoke_matcher.json MRR@3  0.750",
+  "manifest_smoke_matcher.json   R@5  0.800"
+ ],
+ "error": ""
+}

@@ -1,0 +1,39 @@
+{
+ "run_id": "smoke_matcher",
+ "system": "matcher",
+ "seed": 42,
+ "config_hash": "3727a7938884ed88",
+ "config": {
+  "epochs": 1,
+  "patience": 4,
+  "batch_size": 4,
+  "lr": 2e-05,
+  "n_neg": 4,
+  "scale": 30.0,
+  "text_max_len": 128,
+  "label_max_len_train": 32,
+  "pooling": "cls",
+  "neg_pool": "all"
+ },
+ "env": {
+  "python": "3.13.18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "in_colab": "False",
+  "smoke": "True",
+  "torch": "2.15.0+cpu",
+  "cuda": "False",
+  "gpu": "none"
+ },
+ "input_sha256": {},
+ "output_sha256": {
+  "E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\04_train_matcher_save\\smoke_matcher\\matcher_state.pt": "3f39fb28017f1937adcc6196a19cfbb2516e95ec9e342a4be35042c36916ee46",
+  "E:\\Osamas Paper\\_showcase\\results\\smoke_runs\\04_train_matcher_save\\smoke_matcher\\test_scores.npy": "dcafd8507e638c0d6b1fe491ecc78b9bb4f14baa37500943ba1366373426eccf"
+ },
+ "metrics": {
+  "P@1": 0.625,
+  "MRR@3": 0.75,
+  "R@5": 0.8
+ },
+ "status": "SMOKE",
+ "written": "2026-11-15T00:54:10"
+}

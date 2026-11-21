@@ -1,0 +1,18 @@
+# Projector-friendly light theme (classroom demo). Fonts are Windows system fonts, so nothing is fetched online.
+[theme]
+base = "light"
+primaryColor = "#1D4E89"
+backgroundColor = "#F4F6F9"
+secondaryBackgroundColor = "#E6EBF2"
+textColor = "#14213D"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+address = "127.0.0.1"
+
+[client]
+# no "Deploy" button or developer menu: this app must stay on this PC
+toolbarMode = "viewer"
